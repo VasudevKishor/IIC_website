@@ -21,8 +21,8 @@ function App() {
                     return <img key={index} src={image} alt={image.imgAlt} />;
                 })}
             </ImageSlider>
-            <Convenors />
             <Cards />
+            <Convenors />
             <Footer />
         </div>
     );
