@@ -1,5 +1,5 @@
 import React from "react";
-import "./Card_IIC.css";
+import "../styles/Card_IIC.css";
 
 const Card_IIC = () => {
   return (
