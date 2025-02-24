@@ -1,17 +1,46 @@
-import "../styles/Footer.css";
+import React from "react";
+import '../styles/Footer.css';
+import IIClogo from "../images/iic-logo.png";
+import Amritalogo from "../images/amrita-logo-white.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faInstagram, faTwitter, faLinkedin, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
-    const currentYear = new Date().getFullYear();
-
     return (
-        <footer className="footer">
-            <p className="footer-text">© {currentYear} IIC. Content.</p>
-            <p className="footer-links">
-                <a href="/privacy-policy" className="footer-link">Content</a> | 
-                <a href="/terms-of-service" className="footer-link">Terms of Service</a>
-            </p>
-        </footer>
+        <footer>
+        <div id="footer-container">
+            <div id="footer-left">
+                <div id="IICContainer">
+                    <img src={Amritalogo} alt="Amrita Vishwa Vidyapeetham" id="Amritalogo"/>
+                </div>
+            </div>
+    
+            <div id="footer-middle">
+                
+                <h3>REACH OUT TO US!</h3>
+                <p>Feel free to reach out to us if any queries</p>
+                <a href="mailto:chair.iic@cb.amrita.edu">chair.iic@cb.amrita.edu</a>
+            </div>
+    
+            <div id="footer-right">
+                <h3>Our Address</h3>
+                <p>Amrita Vishwa Vidyapeetham, Amritanagar</p>
+                <p>Coimbatore - 641 112, Tamil Nadu, India</p>
+            </div>
+        </div>
+    
+        <div id="footer-bottom">
+            <div id="social-icons">
+                <FontAwesomeIcon icon={faFacebook} className="icon" />
+                <FontAwesomeIcon icon={faInstagram} className="icon" />
+                <FontAwesomeIcon icon={faTwitter} className="icon" />
+                <FontAwesomeIcon icon={faLinkedin} className="icon" />
+                <FontAwesomeIcon icon={faYoutube} className="icon" />
+            </div>
+        </div>
+    </footer>
+    
     );
-}
-
-export default Footer;
+  }
+  
+  export default Footer;
