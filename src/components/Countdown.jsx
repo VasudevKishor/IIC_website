@@ -29,19 +29,19 @@ function Countdown() {
     return (
         <ul id="countdown">
             <li id="days">
-                <div className="number">{days}</div>
+                <div className="number">{String(days).padStart(2, "0")}</div>
                 <div className="label">Days</div>
             </li>
             <li id="hours">
-                <div className="number">{hours}</div>
+                <div className="number">{String(hours).padStart(2, "0")}</div>
                 <div className="label">Hours</div>
             </li>
             <li id="minutes">
-                <div className="number">{min}</div>
+                <div className="number">{Start(min).padStart(2, "0")}</div>
                 <div className="label">Minutes</div>
             </li>
             <li id="seconds">
-                <div className="number">{sec}</div>
+                <div className="number">{Start(sec).padStart(2, "0")}</div>
                 <div className="label">Seconds</div>
             </li>
         </ul>
