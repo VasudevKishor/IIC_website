@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap);
+.genesis-home{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.genesis-image img{
+    height: 85vh;
+}
+
+.home-text h1{
+    font-family: "Rouge Script";
+    font-size: 25vh;
+    font-weight: 400;
+    margin: 0;
+}
+
+.home-text a{
+    font-family: 'Poppins', sans-serif;;
+    color: #000;
+    text-decoration: none;
+    position: relative;
+    float: right;
+}
+
+.home-text a::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    background: black;
+    transition: width .2s;
+}
+
+.home-text a:hover::after {
+    width: 100%;
+}

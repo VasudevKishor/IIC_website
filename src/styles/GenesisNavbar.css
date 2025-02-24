@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#IIClogo {
+    width: 108px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+#logo-line {
+  display: inline-block;
+  width: 3px;
+  height: 60px;
+  background-color: #ffffff;
+}
+
+#Amritalogo {
+    width: 192px;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.logos {
+    float: left;
+}
+
+.genesis-navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.genesis-navlinks{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.genesis-navlinks a{
+    font-family: 'Poppins', sans-serif;;
+    color: #000;
+    text-decoration: none;
+    position: relative;
+}
+
+.genesis-navlinks a::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    background: black;
+    transition: width .2s;
+}
+
+.genesis-navlinks a:hover::after {
+    width: 100%;
+}

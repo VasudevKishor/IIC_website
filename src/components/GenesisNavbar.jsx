@@ -1,12 +1,12 @@
 import Amritalogo from "../images/Amrita-logo.svg";
 import IIClogo from "../images/iic-logo.png";
 import { Link } from "react-router";
-import "../styles/Header.css";
+import "../styles/GenesisNavbar.css";
 
-function Header() {
+export default function GenesisNavbar() {
     return (
-        <header>
-            <div className="logos">
+        <nav className="genesis-navbar">
+            <div id="logo">
                 <img
                     src={IIClogo}
                     alt="Institute Innovation Council"
@@ -19,14 +19,13 @@ function Header() {
                     id="Amritalogo"
                 />
             </div>
-            <div className="nav">
+            <div className="genesis-navlinks">
                 <Link to={"/"}>Home</Link>
-                <Link to={"/genesis25"}>Genesis'25</Link>
-                <Link to={"/team"}>Team</Link>
-                <Link to={"#"}>Contact Us</Link>
+                <Link to={"#"}>Genesis'25</Link>
+                <Link to={"#"}>Events(Exodus)</Link>
+                <Link to={"#"}>Fair</Link>
+                <Link to={"#"}>Workshops</Link>
             </div>
-        </header>
+        </nav>
     );
 }
-
-export default Header;

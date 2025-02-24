@@ -1,6 +1,7 @@
 import "./styles/App.css";
 import Footer from "./components/Footer";
 import ImageSlider from "./components/ImageSlider";
+import Header from "./components/Header";
 import Cards from "./components/Cards";
 import Convenors from "./components/Convenors";
 import slider_1 from "./images/Campus1.jpg";
