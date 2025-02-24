@@ -3,7 +3,7 @@ import "../styles/GenesisHome.css"
 import { Link } from "react-router"
 export default function GenesisHome(){
     return(
-        <section className="genesis-home">
+        <section className="genesis-home" id="genesis">
             <div className="genesis-image">
                 <img src={genesisLogo} alt="" />
             </div>

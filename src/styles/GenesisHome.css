@@ -1,11 +1,14 @@
 @import url(https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .genesis-home{
-    height: 85vh;
+    min-height: 85vh;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
     padding: 0 1rem;
+    box-shadow: inset 0 -3px 10px rgba(70, 130, 180, 0.1); 
 }
 
 .genesis-image img{
@@ -21,6 +24,7 @@
 
 .home-text a{
     font-family: 'Poppins', sans-serif;;
+    font-weight: 600;
     color: #000;
     text-decoration: none;
     position: relative;

@@ -21,10 +21,10 @@ export default function GenesisNavbar() {
             </div>
             <div className="genesis-navlinks">
                 <Link to={"/"}>Home</Link>
-                <Link to={"#"}>Genesis'25</Link>
-                <Link to={"#"}>Events(Exodus)</Link>
-                <Link to={"#"}>Fair</Link>
-                <Link to={"#"}>Workshops</Link>
+                <a href={"#genesis"}>Genesis'25</a>
+                <a href={"#exodus"}>Events(Exodus)</a>
+                <a href={"#fair"}>Fair</a>
+                <a href={"#workshop"}>Workshops</a>
             </div>
         </nav>
     );

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 .about-genesis-container {
@@ -69,3 +70,70 @@
     background-color: #4ea4a2;
   }
   
+=======
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.about-genesis{
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-image{
+    flex: 1;
+    height: 85vh;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-image img{
+    width: 40vw;
+    object-fit: cover;
+}
+
+.about-text{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-card{
+    padding: 7.5vw;
+}
+
+.about-card h2{
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.about-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-links a{
+    font-family: 'Poppins', sans-serif;;
+    color: #000;
+    text-decoration: none;
+    position: relative;
+}
+
+.about-links a::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    background: black;
+    transition: width .2s;
+}
+
+.about-links a:hover::after {
+    width: 100%;
+}
+>>>>>>> e0faaaf (Complete Genesis web-page)

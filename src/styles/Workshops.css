@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap);
+.workshop-title{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 2rem;
+    box-shadow: inset 0 -3px 10px rgba(70, 130, 180, 0.1); 
+}
+
+
+.workshop-title h2{
+    font-family: "Libre Bodoni",sans-serif;
+    font-weight: 700;
+    font-size: 12.5vw;
+    margin: 0;
+}
+
+
+#atal-tinkering-labs{
+    font-family: "Libre Bodoni",sans-serif;
+    font-weight: 700;
+    font-size: 2.5vw;
+    align-self: flex-start;
+}
+
+.workshop-1-text{
+    min-height: 100vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    box-shadow: inset 0 -3px 10px rgba(70, 130, 180, 0.1); 
+}
+
+.workshop-1-details{
+    text-align: center;
+    font-size: 1.25rem;
+    width: 75vw;
+    margin: 0;
+}
+
+.workshop-1-details h3{
+    margin: 0;
+    font-size: 3rem;
+    width: 75vw;
+}
+
+.workshop-2-text{
+    min-height: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    box-shadow: inset 0 -3px 10px rgba(70, 130, 180, 0.1); 
+}
+
+.workshop-2-details{
+    text-align: center;
+    font-size: 1.25rem;
+    width: 75vw;
+    margin: 0;
+}
+
+.workshop-2-details h3{
+    margin: 0;
+    font-size: 3rem;
+    width: 75vw;
+}

@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    scroll-behavior: smooth;
+}
 
 #IIClogo {
     width: 108px;
