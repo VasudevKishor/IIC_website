@@ -1,4 +1,4 @@
-import Amritalogo from "../images/logo.svg";
+import Amritalogo from "../images/Amrita-logo.svg";
 import IIClogo from "../images/iic-logo.png";
 import "../styles/Header.css";
 
