@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import "./ImageSlider.css";
+import "../styles/ImageSlider.css";
 
 function ImageSlider({ children }) {
   const [activeIndex, setActiveIndex] = useState(0);
