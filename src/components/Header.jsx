@@ -4,7 +4,7 @@ import "../styles/Header.css";
 
 function Header() {
     return (
-        <header>
+        <header className="header">
             <div id="logo">
                 <img
                     src={IIClogo}
