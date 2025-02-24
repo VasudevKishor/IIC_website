@@ -1,7 +1,9 @@
 import React from "react";
-import TeamCard from "../components/TeamCard"
+import TeamCard from "./TeamCard"
 import "../styles/Team.css";
 import "../styles/TeamCard.css"
+import Header from "./Header";
+import Footer from "./Footer";
 const data = [
   {
     title: "Convenors",
@@ -27,6 +29,8 @@ const data = [
 
 const Team = () => {
   return (
+    <div>
+    <Header />
     <div className="team-container">
       <div className="team-header">
         <h1>Our Team</h1>
@@ -43,6 +47,9 @@ const Team = () => {
           </div>
         </div>
       ))}
+      
+    </div>
+    <Footer />
     </div>
   );
 };

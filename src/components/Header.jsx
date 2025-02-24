@@ -20,10 +20,10 @@ function Header() {
                 />
             </div>
             <div className="nav">
-                <Link to={"/"}>Home</Link>
-                <Link to={"#"}>Genesis'25</Link>
-                <Link to={"/team"}>Team</Link>
-                <Link to={"#"}>Contact Us</Link>
+                <a href="/">Home</a>
+                <a href="/genesis">Genesis'25</a>
+                <a href="/team">Team</a>
+                <a href="#">Contact Us</a>
             </div>
         </header>
     );
