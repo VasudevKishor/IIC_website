@@ -3,6 +3,8 @@ import Footer from './Footer';
 import Header from './Header';
 import ImageSlider from './Imageslider';
 import Card_IIC from './Card_IIC';
+import AboutCampus from './aboutCampus';
+
 
 
 function App() {
@@ -12,9 +14,12 @@ function App() {
       <div>
             <ImageSlider />
         </div>
-
         <div>
       <Card_IIC />
+        </div>
+
+        <div>
+          <AboutCampus />
         </div>
       <Footer />
     </div>
