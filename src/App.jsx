@@ -7,6 +7,8 @@ import slider_1 from "./images/carousel-1.jpeg";
 import slider_2 from "./images/carousel-2.jpeg";
 import slider_3 from "./images/carousel-3.jpeg";
 import slider_4 from "./images/carousel-4.jpeg";
+import AboutCampus from "./components/AboutCampus";
+import AboutGenesis from "./components/AboutGenesis";
 
 function App() {
     const images = [slider_1, slider_2, slider_3, slider_4];
@@ -20,7 +22,9 @@ function App() {
             </ImageSlider>
             <Cards />
             <Convenors />
+            <AboutCampus />
             <Footer />
+
         </div>
     );
 }
