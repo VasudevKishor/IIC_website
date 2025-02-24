@@ -1,3 +1,24 @@
-.arrow {
+.arrow{
     color: black;
+}
+
+.gen-header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: auto;
+}
+
+.genesis-title {
+    align-content: center;
+}
+
+.back{
+
+}
+.bottom{
+
+}
+.right{
+    width : 60%;
+
 }
