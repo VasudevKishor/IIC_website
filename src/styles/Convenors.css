@@ -1,31 +1,33 @@
 .convenors-container {
-    background-color: #2B7A77;
+    background-color: white;
     min-height: 100vh;
     padding: 2rem;
 }
 
 .convenors-title {
-    color: white;
+    color: black;
     font-size: 2.5rem;
     font-weight: bold;
     text-align: center;
     margin-bottom: 3rem;
     font-size: 40px;
+    text-decoration: underline;
 }
 
 hr.divide {
     width: 80%;
     margin: 20px auto;
-    border: 0;
+    border: 0px solid black;
+    color: black;
     height: 1px;
-    background: white;
+    background: black;
 }
 
 .convenors-wrapper {
     max-width: 1600px;
     margin: 0 auto;
-    background-color: #1D5250;
-    border-radius: 2rem;
+    background-color: white;
+    border-radius: 1rem;
     padding: 2rem;
 }
 
@@ -37,6 +39,7 @@ hr.divide {
     padding: 30px 60px;
     width: 70%;
     margin: 30px auto;
+ 
 }
 
 .convenor-section.right {
@@ -60,8 +63,8 @@ hr.divide {
 }
 
 .convenor-content {
-    background-color: #2B7A77;
-    border-radius: 9rem;
+    background-color: white;
+    border-radius: 4rem;
     padding: 2rem;
     flex-grow: 1;
     min-height: 200px;
@@ -69,15 +72,26 @@ hr.divide {
     height: 100%;
     color: white;
     text-align: center;
+       border: 1px solid black;
 }
 
 h1.ph1 {
     color: black;
     text-align: center;
     margin-bottom: 10px;
+    /* border: 1px solid #12383b; */
+    background: white;
+    border-radius: 40px;
+    width: 80%; 
+    max-width: 600px;
+    margin: 0 auto; 
+    padding: 10px 20px; 
+    font-size: 1.5rem; 
+    text-decoration: underline;
 }
 
 h2.conh2 {
+    color: black;
     text-align: center;
     margin-top: 35px;
 }
