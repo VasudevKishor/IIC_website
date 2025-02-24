@@ -2,7 +2,8 @@ import "./styles/App.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import ImageSlider from "./components/ImageSlider";
-import Card_IIC from "./components/Card_IIC";
+import Cards from "./components/Cards";
+import Convenors from "./components/Convenors";
 
 import slider_1 from "./images/carousel-1.jpeg";
 import slider_2 from "./images/carousel-2.jpeg";
@@ -20,7 +21,8 @@ function App() {
                     return <img key={index} src={image} alt={image.imgAlt} />;
                 })}
             </ImageSlider>
-            <Card_IIC />
+            <Convenors />
+            <Cards />
             <Footer />
         </div>
     );

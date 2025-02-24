@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/Card_IIC.css";
+import "../styles/Cards.css";
 
-const Card_IIC = () => {
+const Cards = () => {
   return (
     <div className="card-container">
       <div className="info-card">
@@ -16,4 +16,4 @@ const Card_IIC = () => {
   );
 };
 
-export default Card_IIC;
+export default Cards;
