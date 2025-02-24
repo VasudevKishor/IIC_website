@@ -1,7 +1,7 @@
 import Countdown from "./Countdown";
-import back from "../images/arrow.svg";
+import arrow from "../images/arrow.svg";
 import iicLogo from "../images/iic-logo-notext.png";
-import genesisLogo from "../images/genesis-logo-removebg-notext.png";
+import genesisLogo from "../images/genesis-logo-truly-transparent-cropped.png";
 import amritaEmblem from "../images/amrita-emblem.svg";
 import "../styles/Genesis.css";
 
@@ -11,7 +11,7 @@ function Genesis() {
             <header className="gen-header">
                 <div className="back">
                     <img
-                        src={back}
+                        src={arrow}
                         alt="back arrow"
                         className="arrow"
                         width="auto"
@@ -20,7 +20,11 @@ function Genesis() {
                     Back
                 </div>
                 <center className="genesis-title">
-                    <img src={iicLogo} alt="" width="auto" height="15" />
+                    <img
+                        src={iicLogo}
+                        alt=""
+                        className="iic-logo"
+                    />
                     GENESIS
                 </center>
                 <div className="amrita-emblem-container">
@@ -29,15 +33,18 @@ function Genesis() {
             </header>
             <div className="bottom">
                 <div className="left">
-                    <img src={genesisLogo} alt="" />
+                    <img src={genesisLogo} className="genesis-logo" />
                 </div>
                 <div className="right">
-                    <div className="genesis">
-                        <h1>GENESIS'25</h1>
-                        <a>Register</a>
-                        <div className="countdown">
-                            <Countdown />
+                    <div className="gen-reg-container">
+                        <div className="genesis">Genesis '25</div>
+                        <div className="register">
+                            <a>Register Now</a>
+                            <img src={arrow} className="reg-arrow" />
                         </div>
+                    </div>
+                    <div className="countdown">
+                        <Countdown />
                     </div>
                 </div>
             </div>
