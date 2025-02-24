@@ -3,6 +3,7 @@ import Footer from './Footer';
 import Header from './Header';
 import ImageSlider from './Imageslider';
 import Card_IIC from './Card_IIC';
+import Convenors from './Convenors';
 
 
 function App() {
@@ -15,6 +16,9 @@ function App() {
 
         <div>
       <Card_IIC />
+        </div>
+        <div>
+          <Convenors/>
         </div>
       <Footer />
     </div>
