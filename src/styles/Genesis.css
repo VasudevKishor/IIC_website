@@ -1,8 +1,10 @@
-.arrow{
+.arrow {
     color: black;
+    padding-inline: 10px;
+    padding-top: 2px;
 }
 
-.gen-header{
+.gen-header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: auto;
@@ -12,13 +14,11 @@
     align-content: center;
 }
 
-.back{
-
+.amrita-emblem-container {
+    display: flex;
+    justify-content: right;
 }
-.bottom{
 
-}
-.right{
-    width : 60%;
-
+.right {
+    width: 60%;
 }
