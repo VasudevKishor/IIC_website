@@ -10,6 +10,8 @@
   flex-direction: row;
   flex-wrap: nowrap;
   background-color: black;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 .container__slider>button {
@@ -101,4 +103,25 @@
 .slider__item img {
   width: 100%;
   height: auto;
+}
+
+.slider__border {
+  border: 4px solid black; /* Customize border thickness and color */
+  border-radius: 10px; /* Optional: Makes the border rounded */
+  padding: 10px; /* Adds space between border and content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white; /* Optional: Adds background color */
+  width: fit-content;
+  margin: auto; /* Centers the slider on the page */
+}
+
+
+.concontainer{
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: middle;
+  aspect-ratio: 18 / 6;
 }

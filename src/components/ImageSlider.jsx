@@ -53,6 +53,7 @@ function ImageSlider({ children }) {
   };
 
   return (
+   <div className="concontainer">
     <div
       className="container__slider"
       onMouseEnter={AutoPlayStop}
@@ -106,6 +107,7 @@ function ImageSlider({ children }) {
       >
         {"<"}
       </button>
+    </div>
     </div>
   );
 }
