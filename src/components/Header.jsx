@@ -1,5 +1,6 @@
 import Amritalogo from "../images/Amrita-logo.svg";
 import IIClogo from "../images/iic-logo.png";
+import { Link } from "react-router";
 import "../styles/Header.css";
 
 function Header() {
@@ -19,10 +20,10 @@ function Header() {
                 />
             </div>
             <div className="nav">
-                <a href="#">Home</a>
-                <a href="#">Genesis'25</a>
-                <a href="#">Team</a>
-                <a href="#">Contact Us</a>
+                <Link to={"/"}>Home</Link>
+                <Link to={"#"}>Genesis'25</Link>
+                <Link to={"/team"}>Team</Link>
+                <Link to={"#"}>Contact Us</Link>
             </div>
         </header>
     );
