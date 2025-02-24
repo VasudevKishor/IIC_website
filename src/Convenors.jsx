@@ -1,5 +1,7 @@
 import React from 'react';
 import './Convenors.css';
+import PrashantSir from './convenorImages/PrashantSir.jpg'; 
+import SasanganSir from "./convenorImages/SasanganSir.jpg"
 
 const Convenors = () => {
     return (
@@ -9,20 +11,20 @@ const Convenors = () => {
             <div className="convenors-wrapper">
                 <div className="convenor-section">
                     <div className="convenor-image">
-                        <img src="" alt="" />
+                        <img src={PrashantSir} alt="prashant sir" />
                     </div>
 
                     <div className="convenor-content">
-                    
+                    <h1 className='ph1'>PRASHANT S NAIR</h1>
                     </div>
                 </div>
 <hr className='divide' />
                 <div className="convenor-section right">
                     <div className="convenor-image">
-                       <img src="" alt="" />
+                        <img src={SasanganSir} alt="sasangan sir" />
                     </div>
                     <div className="convenor-content">
-
+                        <h1 className="ph2">Dr. Sasangan Ramanathan</h1>
                     </div>
                 </div>
             </div>
