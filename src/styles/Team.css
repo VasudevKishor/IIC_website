@@ -5,32 +5,26 @@ text-align: center;
 }
 
 .team-header h1 {
-font-size: 40px;
+font-size: 50px;
 font-weight: bold;
 color: #333;
 margin-bottom: 10px;
 }
 
 .team-header p {
-font-size: 18px;
+font-size: 26px;
 color: #666;
 margin-bottom: 40px;
 }
 
 .team-section {
 margin-bottom: 50px;
-}
 
-.team-section h2 {
-font-size: 28px;
-font-weight: bold;
-color: #444;
-margin-bottom: 20px;
 }
 
 .team-grid {
 display: grid;
-gap: 20px;
+gap: 35px;
 justify-content: center;
 }
 
@@ -40,4 +34,10 @@ grid-template-columns: repeat(2, 1fr);
 
 .grid-three {
 grid-template-columns: repeat(3, 1fr);
+}
+.grid-one {
+    display:grid;
+    justify-content: center;
+    width: 30;
+    flex-wrap:wrap;
 }

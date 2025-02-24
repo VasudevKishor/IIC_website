@@ -1,7 +1,7 @@
 import React from "react";
-import {TeamCard} from "../components/TeamCard"
-import "./Team.css";
-
+import TeamCard from "../components/TeamCard"
+import "../styles/Team.css";
+import "../styles/TeamCard.css"
 const data = [
   {
     title: "Convenors",
@@ -36,7 +36,7 @@ const Team = () => {
       {data.map((section, idx) => (
         <div key={idx} className="team-section">
           <h2>{section.title}</h2>
-          <div className={`team-grid ${section.members.length > 2 ? "grid-three" : "grid-two"}`}>
+          <div className={`team-grid ${section.members.length === 1 ? "grid-one" : section.members.length % 2 === 0 ? "grid-two" : "grid-three"}`}>
             {section.members.map((member, index) => (
               <TeamCard name={member.name} position={member.role} profile={member.image} />
             ))}
