@@ -2,44 +2,48 @@
     background-color: #2B7A77;
     min-height: 100vh;
     padding: 2rem;
-  }
-  
-  .convenors-title {
+}
+
+.convenors-title {
     color: white;
     font-size: 2.5rem;
     font-weight: bold;
     text-align: center;
     margin-bottom: 3rem;
     font-size: 40px;
-  }
-  
-  hr.divide{
+}
+
+hr.divide {
     width: 80%;
-  }
-  .convenors-wrapper {
-    max-width: 1400px;
+    margin: 20px auto;
+    border: 0;
+    height: 1px;
+    background: white;
+}
+
+.convenors-wrapper {
+    max-width: 1600px;
     margin: 0 auto;
-    position: relative;
     background-color: #1D5250;
     border-radius: 2rem;
-  
-  }
-  
-  .convenor-section {
+    padding: 2rem;
+}
+
+.convenor-section {
     display: flex;
     align-items: center;
     gap: 2rem;
     margin-bottom: 4rem;
     padding: 30px 60px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-  }
-  
-  .convenor-section.right {
+    width: 70%;
+    margin: 30px auto;
+}
+
+.convenor-section.right {
     flex-direction: row-reverse;
-  }
-  
-  .convenor-image {
+}
+
+.convenor-image {
     width: 230px;
     height: 230px;
     border-radius: 50%;
@@ -47,32 +51,33 @@
     flex-shrink: 0;
     background-color: white;
     position: relative;
-  
-  }
-  .convenor-image img {
+}
+
+.convenor-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 50%;
-  }
-  
-  
-  
-  .convenor-content {
+}
+
+.convenor-content {
     background-color: #2B7A77;
-    border-radius: 2rem;
+    border-radius: 9rem;
     padding: 2rem;
     flex-grow: 1;
     min-height: 200px;
-    width: 100%;
+    max-width: 100%;
     height: 100%;
-    
-  }
-  h1.ph1{
-  color: black;
-  text-align: center;
-  margin-bottom: 30px;
-  }
-  h1.ph2{
+    color: white;
     text-align: center;
-  }
+}
+
+h1.ph1 {
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2.conh2 {
+    text-align: center;
+    margin-top: 35px;
+}
