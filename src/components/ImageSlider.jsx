@@ -53,7 +53,19 @@ function ImageSlider({ children }) {
   };
 
   return (
+  
    <div className="concontainer">
+    <div className="slider__text-overlay">
+      
+        <h2>Institution’s Innovation Council</h2>
+        <p>Fostering Innovation</p>
+        <button
+          className="iic-button"
+          onClick={() => window.location.href = 'https://iic.mic.gov.in/'}
+        >
+          Know More
+        </button>
+      </div>
     <div
       className="container__slider"
       onMouseEnter={AutoPlayStop}
@@ -66,6 +78,7 @@ function ImageSlider({ children }) {
             key={index}
           >
             {item}
+            <div className="slider__extra-box"></div>
           </div>
         );
       })}
