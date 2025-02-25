@@ -48,6 +48,27 @@ function Genesis() {
                     </div>
                 </div>
             </div>
+
+
+            {/* THE EXODUS PART */}
+
+            <div className="parallax">
+                <div className="container">
+                    <div className="title">
+                        <h1>EXODUS</h1>
+                    </div>
+
+                    <div className="description">
+                        <p>
+                            Exodus is the flagship entrepreneurial competition of campus aimed to provide aspiring founders with a prestigious platform to present their transformative business ideas. This event aims to connect early-stage startups and innovative thinkers with seasoned investors, business leaders, and industry experts. By offering direct access to funding, mentorship, and strategic business support, it enables participants to bring their ideas to fruition, validate their market potential, and accelerate their journey toward building successful ventures. As an Inter/Intra Institutional Business Plan Competition, the best innovators will be recognized and deposited in Amrita Vishwa Vidyapeetham's YURTI Innovation Repository, ensuring continued support and visibility.Additionally, participants will have opportunities for mentorship through Innovation Ambassadors and industry experts, creating long-term value beyond the event.
+                        </p>
+
+
+
+                    </div>
+                </div>
+            </div>
+
         </>
     );
 }
