@@ -1,32 +1,173 @@
 footer {
-    margin-top: auto;
-    background-color: #2b7a77;
+    background-color: #2b7a77;  /* Main footer color */
     color: white;
+    position: absolute;
+    left:0;
+    clip-path: inset(130px 0 0 0);
+    font-size: 14px;
+    height: 300px;
     text-align: center;
-    padding: 1.5rem;
-    border-top: 2px #1e393f;
-    font-family: "Arial", sans-serif;
-    font-size: 1rem;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
-    position: relative;
+    width: 100%;
 }
 
-footer:hover {
-    background-color: #2b7a77;
-    border-top-color: #2b7a77;
-    transition: background-color 0.3s ease, border-top-color 0.3s ease;
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
-footer a {
-    color: #a2d9d9;
+main {
+    flex-grow: 1; /* Pushes footer down */
+}
+#footer-container {
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    max-width: 1200px;
+    padding: 0px 20px;
+    margin-top: 100px;
+    max-width: 1000px;  /* Reduce max-width to bring them closer */
+    gap: 100px;
+    margin: 0 auto;
+    
+}
+
+
+
+/* IIC Section */
+#footer-left {
+    text-align: center;
+    margin-top: 100px;
+    align-items: bottom;
+}
+
+
+#IICContainer {
+
+    align-items: center; /* Center content */
+    justify-content: center; /* Center vertically */
+    margin-top: 74px;
+}
+.iic-text {
+    font-size: 17px;
+    color: #f9f9f9;
+    font-weight:500;
+    text-align: center;
+    margin-top: 10px; /* Adds spacing below the logo */
+}
+
+
+
+#AmritaLogo {
+    width: 150px;
+    height: auto;
+    max-width: none;
+}
+
+/* Middle Section */
+#footer-middle {
+    text-align: center;
+    margin-top: 153px;
+    margin-left: 65px;
+    
+}
+
+
+#footer-middle h3 {
+    color: #ffc107;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Email Link */
+#footer-middle a {
+    color: white;
     text-decoration: none;
     font-weight: bold;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
-footer a:hover {
-    color: #d3f6f6;
+#footer-middle a:hover {
     text-decoration: underline;
-    transition: color 0.3s ease;
+}
+
+/* Right Section - Address */
+#footer-right {
+    text-align: center;
+    margin-top: 165px;
+    bottom: 0;
+}
+
+#footer-right h3 {
+    color: #ffc107;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Footer Bottom */
+#footer-bottom {
+    position: relative;
+    bottom: 20px;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;;
+    margin-top: 30px;
+    padding: 1.7px 0;
+    height: 30px;
+    width: 100%;
+    font-size: 12px;
+    margin-left: 0px;
+    background-color: #1c5a5a;
+}
+#footer-left, #footer-middle, #footer-right {
+        text-align: center;
+        line-height: 0.6; /* Adjust line spacing */
+        font-family:Georgia, 'Times New Roman', Times, serif;
+       
+       
+    }
+
+
+#social-icons {
+    display: flex;
+    margin-top: 7px;
+    gap: 15px; /* Space between icons */
+}
+
+.icon {
+    font-size: 20px;
+    color: white;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    color: #ffc107;
+}
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+    #footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #footer-left, #footer-middle, #footer-right {
+        text-align: center;
+        line-height: 1.2; /* Adjust line spacing */
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 15px;
+    }
+
+    #footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    
+    
 }
