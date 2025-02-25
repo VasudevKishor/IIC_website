@@ -9,7 +9,7 @@ function Footer() {
         <footer id="footer">
         <div id="footer-container">
             <div id="footer-left">
-                <img src={Amritalogo} alt="Amrita Vishwa Vidyapeetham" id="Amritalogo"/>
+                <img src={Amritalogo} alt="Amrita Vishwa Vidyapeetham" id="iic-footer-Amrita-logo"/>
             </div>
     
             <div id="footer-middle">
