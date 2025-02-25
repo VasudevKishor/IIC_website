@@ -111,12 +111,15 @@ main {
 
 #footer-left, #footer-middle, #footer-right {
     text-align: center;
-    line-height: 0.6;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-#AmritaLogo {
-    flex-shrink: 0;
+
+#iic-footer-Amrita-logo {
+    object-fit: cover;
+    height: 5em;
 }
+
+
 /* Social Icons */
 #social-icons {
     display: flex;
