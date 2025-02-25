@@ -2,6 +2,7 @@
 
 body {
     font-family: "IM Fell English", serif;
+    background-image: url();
 }
 
 .arrow {
@@ -17,10 +18,15 @@ body {
     font-style: italic;
 }
 
+.back-link {
+    color: black;
+    text-decoration: none;
+}
+
 .gen-header {
     font-size: 18px;
     padding: 10px;
-    padding-bottom: 7em;
+    padding-bottom: 5em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: auto;
@@ -51,6 +57,7 @@ body {
     display: flex;
     text-align: center;
     align-items: center;
+    padding-bottom: 2em;
 }
 
 .left {

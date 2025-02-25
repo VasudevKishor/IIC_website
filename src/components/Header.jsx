@@ -23,7 +23,7 @@ function Header() {
                 <a href="/">Home</a>
                 <a href="/genesis">Genesis'25</a>
                 <a href="/team">Team</a>
-                <a href="#">Contact Us</a>
+                <a href="#footer">Contact Us</a>
             </div>
         </header>
     );
