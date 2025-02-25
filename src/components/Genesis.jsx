@@ -10,6 +10,7 @@ import Convenors from "./Convenors";
 function Genesis() {
     return (
         <>
+            <div className="genesis-bg">
             <header className="gen-header">
                 <div className="back">
                     <img
@@ -51,6 +52,7 @@ function Genesis() {
                         <Countdown />
                     </div>
                 </div>
+            </div>
             </div>
             <AboutGenesis />
             <Convenors />

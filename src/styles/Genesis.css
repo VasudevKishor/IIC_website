@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=IM+Fell+English:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
-body {
+.genesis-bg {
     font-family: "IM Fell English", serif;
-    background-image: url();
+    background-image: url(../images/Header-background.png);
+    background-size: cover;
 }
 
 .arrow {
@@ -105,3 +106,4 @@ body {
     height: 20%;
     font-family: "Roboto";
 }
+
