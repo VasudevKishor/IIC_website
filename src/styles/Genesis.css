@@ -20,7 +20,7 @@ body {
 .gen-header {
     font-size: 18px;
     padding: 10px;
-    padding-bottom: 10em;
+    padding-bottom: 7em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: auto;
