@@ -1,4 +1,4 @@
-import Amritalogo from "../images/Amrita-logo.svg";
+import Amritalogo from "../images/amrita_logo_red.png";
 import IIClogo from "../images/iic-logo.png";
 import "../styles/Header.css";
 
@@ -12,11 +12,7 @@ function Header() {
                     id="IIClogo"
                 />
                 <span id="logo-line"></span>
-                <img
-                    src={Amritalogo}
-                    alt="Amrita Vishwa Vidyapeetham"
-                    id="Amritalogo"
-                />
+                <img src={Amritalogo} alt="Amrita Vishwa Vidyapeetham" id="Amritalogo"/>
             </div>
             <div className="nav">
                 <a href="#">Home</a>

@@ -1,11 +1,11 @@
 footer {
     background-color: #2b7a77;  /* Main footer color */
     color: white;
-    position: absolute;
-    left:0;
+    position: relative; /* Changed from absolute */
+    left: 0;
     clip-path: inset(130px 0 0 0);
     font-size: 14px;
-    height: 300px;
+    min-height: 315px; /* Allows it to expand if needed */
     text-align: center;
     width: 100%;
 }
@@ -20,61 +20,49 @@ html, body {
 main {
     flex-grow: 1; /* Pushes footer down */
 }
+
 #footer-container {
-    
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1000px; /* Removed duplicate max-width */
     padding: 0px 20px;
-    margin-top: 100px;
-    max-width: 1000px;  /* Reduce max-width to bring them closer */
-    gap: 100px;
     margin: 0 auto;
-    
+    gap: 100px;
 }
-
-
 
 /* IIC Section */
 #footer-left {
     text-align: center;
-    margin-top: 100px;
-    align-items: bottom;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
 }
-
 
 #IICContainer {
-
-    align-items: center; /* Center content */
-    justify-content: center; /* Center vertically */
+    align-items: center;
+    justify-content: center;
     margin-top: 74px;
 }
+
 .iic-text {
     font-size: 17px;
     color: #f9f9f9;
-    font-weight:500;
+    font-weight: 500;
     text-align: center;
-    margin-top: 10px; /* Adds spacing below the logo */
+    margin-top: 10px;
 }
 
-
-
-#AmritaLogo {
-    width: 150px;
-    height: auto;
-    max-width: none;
-}
 
 /* Middle Section */
 #footer-middle {
     text-align: center;
     margin-top: 153px;
-    margin-left: 65px;
-    
+    margin-left: 130px;
 }
-
 
 #footer-middle h3 {
     color: #ffc107;
@@ -97,7 +85,7 @@ main {
 #footer-right {
     text-align: center;
     margin-top: 165px;
-    bottom: 0;
+    margin-left: 20px;
 }
 
 #footer-right h3 {
@@ -109,32 +97,32 @@ main {
 /* Footer Bottom */
 #footer-bottom {
     position: relative;
-    bottom: 20px;
     left: 0;
     display: flex;
     flex-direction: row;
-    justify-content: center;;
-    margin-top: 30px;
-    padding: 1.7px 0;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 1px 0;
     height: 30px;
     width: 100%;
     font-size: 12px;
-    margin-left: 0px;
     background-color: #1c5a5a;
 }
+
 #footer-left, #footer-middle, #footer-right {
-        text-align: center;
-        line-height: 0.6; /* Adjust line spacing */
-        font-family:Georgia, 'Times New Roman', Times, serif;
-       
-       
-    }
-
-
+    text-align: center;
+    line-height: 0.6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#AmritaLogo {
+    flex-shrink: 0;
+}
+/* Social Icons */
 #social-icons {
     display: flex;
     margin-top: 7px;
-    gap: 15px; /* Space between icons */
+    gap: 15px;
+    margin-right: 29px;
 }
 
 .icon {
@@ -157,7 +145,7 @@ main {
 
     #footer-left, #footer-middle, #footer-right {
         text-align: center;
-        line-height: 1.2; /* Adjust line spacing */
+        line-height: 1.2;
         font-family: 'Poppins', sans-serif;
         margin-bottom: 15px;
     }
@@ -167,7 +155,4 @@ main {
         text-align: center;
         gap: 10px;
     }
-    
-    
-    
 }

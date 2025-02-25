@@ -1,6 +1,6 @@
 import React from "react";
 import '../styles/Footer.css';
-import IIClogo from "../images/iic-logo.png";
+
 import Amritalogo from "../images/amrita-logo-white.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram, faTwitter, faLinkedin, faYoutube } from "@fortawesome/free-brands-svg-icons";
@@ -10,9 +10,7 @@ function Footer() {
         <footer>
         <div id="footer-container">
             <div id="footer-left">
-                <div id="IICContainer">
-                    <img src={Amritalogo} alt="Amrita Vishwa Vidyapeetham" id="Amritalogo"/>
-                </div>
+                <img src={Amritalogo} alt="Amrita Vishwa Vidyapeetham" id="Amritalogo"/>
             </div>
     
             <div id="footer-middle">
