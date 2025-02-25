@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=IM+Fell+English:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
+
+.genesis-bg {
+    font-family: "IM Fell English", serif;
+    background-image: url(../images/Header-background.png);
+    background-size: cover;
+}
+
 .arrow {
     color: black;
     padding-inline: 10px;
@@ -13,10 +20,17 @@
     font-style: italic;
 }
 
+.back-link {
+    color: black;
+    text-decoration: none;
+}
+
 .gen-header {
     font-size: 18px;
     padding: 10px;
+
     padding-bottom: 10em;
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: auto;
@@ -47,6 +61,7 @@
     display: flex;
     text-align: center;
     align-items: center;
+    padding-bottom: 2em;
 }
 
 .left {
@@ -94,7 +109,6 @@
     height: 20%;
     font-family: "Roboto";
 }
-
 
 body {
   background-color: #fff;
@@ -261,3 +275,4 @@ body {
     padding: 1rem;
   }
 }
+

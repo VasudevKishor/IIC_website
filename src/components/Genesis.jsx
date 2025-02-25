@@ -3,11 +3,15 @@ import arrow from "../images/arrow.svg";
 import iicLogo from "../images/iic-logo-notext.png";
 import genesisLogo from "../images/genesis-logo-truly-transparent-cropped.png";
 import amritaEmblem from "../images/amrita-emblem.svg";
+import AboutGenesis from "./AboutGenesis";
 import "../styles/Genesis.css";
+import Convenors from "./Convenors";
 
 function Genesis() {
     return (
         <>
+            <title>Genesis</title>
+            <div className="genesis-bg">
             <header className="gen-header">
                 <div className="back">
                     <img
@@ -17,7 +21,9 @@ function Genesis() {
                         width="auto"
                         height="15"
                     ></img>
-                    Back
+                    <a href="/" className="back-link">
+                        Back
+                    </a>
                 </div>
                 <center className="genesis-title">
                     <img
@@ -48,8 +54,8 @@ function Genesis() {
                     </div>
                 </div>
             </div>
-
-
+            <AboutGenesis />
+            <Convenors />
             {/* THE EXODUS PART */}
 
             <div className="parallax">
@@ -68,7 +74,7 @@ function Genesis() {
                     </div>
                 </div>
             </div>
-
+            
         </>
     );
 }

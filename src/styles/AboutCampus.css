@@ -37,10 +37,22 @@
   }
   
   .yellow-line {
-    padding-left: 240px;
+    padding-left: 49dvh;
     width: 100%; 
     height: auto; 
     display: block; 
     margin: 10px auto 0; 
+    border-radius: 8px;
+  }
+
+  .about-text {
+    font-size: 18px;
+    color: #333; 
+    background-color: antiquewhite;
+    opacity: 0.8;
+    padding: 10px;
+    border-radius: 8px;
+    width: 50%;
+    margin-left: 25%;
   }
   
