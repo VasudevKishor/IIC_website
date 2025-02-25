@@ -54,6 +54,7 @@ function Genesis() {
                     </div>
                 </div>
             </div>
+            </div>
             <AboutGenesis />
             <Convenors />
             {/* THE EXODUS PART */}
