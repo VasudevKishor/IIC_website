@@ -9,7 +9,7 @@ export default function Workshops(){
             <section className="workshop-1-text">
                 <div className="workshop-1-details">
                     <h3>Prototype/Process</h3>
-                    <h3>Development and Design</h3>
+                    <h3>Development and Design </h3>
                     <p>
                     This interactive workshop will empower student innovators to transform their ideas into tangible realities. Participants will delve into the practicalities of prototype development, learning a structured approach to design, fabrication, and testing. The session will cover essential techniques and tools relevant to diverse fields, fostering a hands-on learning experience. Students will work collaboratively, applying iterative design principles to refine their prototypes based on feedback, mirroring real-world engineering and design processes. This workshop aims to ignite creativity and problem-solving skills, equipping students with the confidence to bring their innovative concepts to life.
                     </p>
