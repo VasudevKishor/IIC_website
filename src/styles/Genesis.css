@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=IM+Fell+English:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+    font-family: "IM Fell English", serif;
+}
+
+.arrow {
+    color: black;
+    padding-inline: 10px;
+    padding-top: 2px;
+    padding-left: 15px;
+}
+
+.back {
+    display: flex;
+    align-items: center;
+    font-style: italic;
+}
+
+.gen-header {
+    font-size: 18px;
+    padding: 10px;
+    padding-bottom: 7em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: auto;
+}
+
+.iic-logo {
+    width: auto;
+    height: 20px;
+    padding-inline: 10px;
+}
+
+.genesis-title {
+    align-content: center;
+    letter-spacing: 3px;
+}
+
+.amrita-emblem {
+    width: 5em;
+    padding: 10px;
+}
+
+.amrita-emblem-container {
+    display: flex;
+    justify-content: right;
+}
+
+.bottom {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.left {
+    width: 40%;
+    display: flex;
+    justify-content: right;
+}
+
+.genesis-logo {
+    height: 35em;
+}
+
+.right {
+    width: 60%;
+    display: inline;
+    justify-items: left;
+}
+
+.gen-reg-container {
+    padding: 5em;
+    justify-items: right;
+}
+
+.genesis {
+    font-family: "Dancing Script", cursive;
+    font-size: 120px;
+}
+
+.register {
+    align-items: first baseline;
+}
+
+.reg-arrow {
+    height: 20px;
+    width: auto;
+    padding-left: 15px;
+    rotate: 135deg;
+}
+
+.countdown {
+    justify-items: left;
+    font-size: 20;
+    padding-top: 6em;
+    width: 40%;
+    height: 20%;
+    font-family: "Roboto";
+}
