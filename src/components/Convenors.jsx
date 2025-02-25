@@ -17,7 +17,7 @@ const Convenors = () => {
                     </div>
 
                     <div className="convenor-content">
-                        <h1 className="ph1">Prashant S Nair</h1>
+                        <h1 className="ph1">Prashant R Nair</h1>
                         <h2 className="conh2">President - IIC &nbsp; | &nbsp; Vice-Chairman - IQAC</h2>
                     </div>
                 </div>
@@ -39,7 +39,7 @@ const Convenors = () => {
 
                     <div className="convenor-content">
                         <h1 className="ph1">Dr. Adarsh S.</h1>
-                        <h2 className="conh2">Faculty of Students Welfare &nbsp;</h2>
+                        <h2 className="conh2">Professor of Students Welfare &nbsp;</h2>
                     </div>
                 </div>
                 <hr className="divide" />
