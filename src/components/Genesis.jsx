@@ -10,6 +10,7 @@ import Convenors from "./Convenors";
 function Genesis() {
     return (
         <>
+            <title>Genesis</title>
             <div className="genesis-bg">
             <header className="gen-header">
                 <div className="back">
