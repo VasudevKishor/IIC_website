@@ -1,5 +1,5 @@
 #IIClogo {
-    width: 84px;
+    width: auto;
     height: 38px;
     margin-left: 30px;
     margin-top: -80px;
@@ -21,6 +21,7 @@
     margin-left: 15px;
     margin-top: -20px;
     margin-bottom: 100px;
+
     margin-right: 10px;
 }
 
@@ -46,15 +47,13 @@
     border-bottom: 1px solid #ffc107 ;
     color: #2b7a77;
 
-}
-
-.nav a:active{
+.nav a:active {
     color: #000000;
     background-color: #ddd;
    
 }
 
-.nav{
+.nav {
     float: right;
     margin-top: 15px;
     margin-right: 27px;
@@ -62,14 +61,15 @@
 }
 
 header {
-    position: fixed; /* Keeps it on top */
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.7); /* White with 70% transparency */
-    backdrop-filter: blur(25px); /* Adds a blur effect */
+    background-color: rgba(255, 255, 255, 0.7); 
+    backdrop-filter: blur(25px);
     max-height: 57px;
     padding: 0px 10px;
-    border-bottom: 1px solid rgba(129, 129, 129, 0.5); /* Slightly faded border */
-    z-index: 1000; /* Ensures it stays above other elements */
+    border-bottom: 1px solid rgba(129, 129, 129, 0.5); 
+    z-index: 1000; 
 }
+

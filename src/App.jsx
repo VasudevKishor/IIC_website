@@ -1,9 +1,9 @@
 import "./styles/App.css";
 import Footer from "./components/Footer";
-import Header from "./components/Header";
 import ImageSlider from "./components/ImageSlider";
 import Cards from "./components/Cards";
 import Convenors from "./components/Convenors";
+
 
 import slider_1 from "./images/amrita1.jpg";
 import slider_2 from "./images/amrita2.avif";
@@ -22,8 +22,9 @@ function App() {
                 })}
             </ImageSlider>
             <Cards />
-            <Convenors />
+            <AboutCampus />
             <Footer />
+
         </div>
     );
 }

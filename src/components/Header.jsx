@@ -1,10 +1,11 @@
 import Amritalogo from "../images/amrita_logo_red.png";
 import IIClogo from "../images/iic-logo.png";
+import { Link } from "react-router";
 import "../styles/Header.css";
 
 function Header() {
     return (
-        <header>
+        <header className="header">
             <div id="logo">
                 <img
                     src={IIClogo}
@@ -15,10 +16,10 @@ function Header() {
                 <img src={Amritalogo} alt="Amrita Vishwa Vidyapeetham" id="Amritalogo"/>
             </div>
             <div className="nav">
-                <a href="#">Home</a>
-                <a href="#">Genesis'25</a>
-                <a href="#">Team</a>
-                <a href="#">Contact Us</a>
+                <a href="/">Home</a>
+                <a href="/genesis">Genesis'25</a>
+                <a href="/team">Team</a>
+                <a href="#footer">Contact Us</a>
             </div>
         </header>
     );

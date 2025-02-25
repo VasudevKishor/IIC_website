@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "../styles/Countdown.css";
 
 function Countdown() {
-    const countingTo = new Date("2025-03-12T00:00:00");
+    const countingTo = new Date("2025-03-13T00:00:00");
     const now = new Date();
 
     const [time, setTime] = useState(countingTo - now);
@@ -14,13 +14,13 @@ function Countdown() {
     useEffect(() => {
         setInterval(() => {
             setTime((time) => {
-                console.log(time);
                 if (time > 0) {
-                    setTime(time - 1000);
                     setSec(Math.floor(time / 1000) % 60);
                     setMin(Math.floor(time / 60_000) % 60);
                     setHours(Math.floor(time / 360_000) % 24);
-                    setDays(Math.floor(time / 8.46e7));
+                    setDays(Math.floor(time / 8.64e7));
+
+                    return time - 1000;
                 }
             });
         }, 1000);
@@ -37,11 +37,11 @@ function Countdown() {
                 <div className="label">Hours</div>
             </li>
             <li id="minutes">
-                <div className="number">{Start(min).padStart(2, "0")}</div>
+                <div className="number">{String(min).padStart(2, "0")}</div>
                 <div className="label">Minutes</div>
             </li>
             <li id="seconds">
-                <div className="number">{Start(sec).padStart(2, "0")}</div>
+                <div className="number">{String(sec).padStart(2, "0")}</div>
                 <div className="label">Seconds</div>
             </li>
         </ul>
