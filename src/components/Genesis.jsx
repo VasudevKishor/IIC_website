@@ -67,7 +67,6 @@ function Genesis() {
             <Exodus/>
             <Fair/>
             <Workshops/>
-            </div>
             
         </>
     );
