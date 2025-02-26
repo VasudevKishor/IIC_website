@@ -3,9 +3,6 @@
 
 .convenors-container {
     margin-top: 60px; /* Moves everything slightly down */
-    background-image: url('../images/Convernors.png');
-    background-size: cover;
-    background-repeat: no-repeat;
     min-height: 100vh;
     padding: 2rem;
     font-family: "IM Fell English", serif;

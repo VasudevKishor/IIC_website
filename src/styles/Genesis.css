@@ -30,7 +30,7 @@
     font-size: 18px;
     padding: 10px;
     font-family: "IM Fell English", serif;
-    padding-bottom: 10em;
+    padding-bottom: 1.5em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: auto;
