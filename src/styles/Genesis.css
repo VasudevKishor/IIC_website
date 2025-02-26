@@ -31,7 +31,6 @@
     padding: 10px;
     font-family: "IM Fell English", serif;
     padding-bottom: 10em;
-
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: auto;
@@ -49,13 +48,15 @@
 }
 
 .amrita-emblem {
-    width: 5em;
+    width: 4em;
     padding: 10px;
 }
 
 .amrita-emblem-container {
     display: flex;
     justify-content: right;
+    margin-top: -10px;
+    margin-right: 20px;
 }
 
 .bottom {
@@ -72,7 +73,8 @@
 }
 
 .genesis-logo {
-    height: 35em;
+    margin-top: 90px;
+    height: 30em;
 }
 
 .right {
@@ -87,6 +89,7 @@
 }
 
 .genesis {
+    margin-top: 120px;
     font-family: "Dancing Script", cursive;
     font-size: 120px;
 }
