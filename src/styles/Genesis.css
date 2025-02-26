@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=IM+Fell+English:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
+
 .genesis-bg {
     font-family: "IM Fell English", serif;
-    background-image: url(../images/Header-background.png);
+    background-image: url(../images/genesis-background.png);
     background-size: cover;
 }
+
 
 .arrow {
     color: black;
@@ -28,6 +30,7 @@
     font-size: 18px;
     padding: 10px;
     padding-bottom: 1.7em;
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: auto;
@@ -110,4 +113,118 @@
     height: 20%;
     font-family: "Roboto";
 }
+
+body {
+  background-color: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.title {
+  font-size: 3rem; 
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: left;
+  margin-bottom: 1rem; 
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .title h1 {
+    font-size: 4rem;
+  }
+  
+  .title {
+    margin-bottom: 60px;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .gen-header {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .genesis-logo {
+    height: 25em;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .left {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .countdown {
+    width: 60%;
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .genesis {
+    font-size: 80px;
+  }
+
+  .countdown {
+    width: 80%;
+    font-size: 16px;
+  }
+
+  .gen-reg-container {
+    padding: 2em;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .genesis {
+    font-size: 60px;
+  }
+
+  .countdown {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .gen-header {
+    padding-bottom: 5em;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .description {
+    font-size: 1rem;
+    max-width: 90%;
+    padding: 1rem;
+  }
+}
+
 

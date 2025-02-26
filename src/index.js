@@ -4,7 +4,7 @@ import "./styles/index.css";
 import App from "./App";
 import Genesis from "./components/Genesis";
 import Team from "./components/Team";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

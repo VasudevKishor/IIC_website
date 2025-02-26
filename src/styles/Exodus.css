@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap);
+.exodus-text{
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 3rem;
+    margin-bottom: 10rem;
+
+}
+
+.exodus-title{
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    margin-bottom: 0px;
+     
+}
+
+.exodus-title h2{
+    font-family: "Libre Bodoni",sans-serif;
+    font-weight: 700;
+    font-size: 18vw;
+    margin-bottom: 0;
+}
+
+.exodus-text p{
+    display: block;
+    font-size: 1.25rem;
+    width: 75vw;
+    text-justify: auto;
+}

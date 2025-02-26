@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap);
+.fair-title{
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    padding: 0rem; 
+    margin-right: 3rem;
+}
+
+
+.fair-title h2{
+    font-family: "Libre Bodoni",sans-serif;
+    font-weight: 700;
+    font-size: 12.5vw;
+    margin: 0;
+    height: 12.5vw;
+}
+
+
+#atal-tinkering-labs{
+    font-family: "Libre Bodoni",sans-serif;
+    font-weight: 700;
+    font-size: 2.5vw;
+    height: min-content;
+    align-self: flex-start;
+    margin-left: 2rem;
+}
+
+.fair-text{
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 3rem;
+    
+}
+
+.fair-text p{
+    text-align: left;
+    font-size: 1.25rem;
+    width: 75vw;
+}

@@ -5,11 +5,19 @@ import genesisLogo from "../images/genesis-logo-truly-transparent-cropped.png";
 import amritaEmblem from "../images/amrita-emblem.svg";
 import AboutGenesis from "./AboutGenesis";
 import "../styles/Genesis.css";
+import "../styles/Workshops.css";
+import "../styles/Exodus.css";
+import "../styles/Fair.css";
 import Convenors from "./Convenors";
+import Exodus from "./Exodus"
+import Fair from "./Fair"
+import Workshops from "./Workshops"
+import Footer from "./Footer";
 
 function Genesis() {
     return (
-        <>
+        <div className="genesis-bg">
+            <title>Genesis</title>
             <div className="genesis-bg">
             <header className="gen-header">
                 <div className="back">
@@ -56,7 +64,15 @@ function Genesis() {
             </div>
             <AboutGenesis />
             <Convenors />
-        </>
+            {/* THE EXODUS PART */}
+            <div className="parallaxbg">
+            <Exodus/>
+            <Fair/>
+            <Workshops/>
+            </div>
+            <Footer />
+            
+        </div>
     );
 }
 
