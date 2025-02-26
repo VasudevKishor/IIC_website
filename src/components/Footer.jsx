@@ -6,7 +6,7 @@ import { faFacebook, faInstagram, faTwitter, faLinkedin, faYoutube } from "@fort
 
 function Footer() {
     return (
-        <footer id="footer">
+        <footer >
         <div id="footer-container">
             <div id="footer-left">
                 <img src={Amritalogo} alt="Amrita Vishwa Vidyapeetham" id="iic-footer-Amrita-logo"/>

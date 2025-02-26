@@ -12,10 +12,11 @@ import Convenors from "./Convenors";
 import Exodus from "./Exodus"
 import Fair from "./Fair"
 import Workshops from "./Workshops"
+import Footer from "./Footer";
 
 function Genesis() {
     return (
-        <>
+        <div className="genesis-bg">
             <title>Genesis</title>
             <div className="genesis-bg">
             <header className="gen-header">
@@ -64,11 +65,14 @@ function Genesis() {
             <AboutGenesis />
             <Convenors />
             {/* THE EXODUS PART */}
+            <div className="parallaxbg">
             <Exodus/>
             <Fair/>
             <Workshops/>
+            </div>
+            <Footer />
             
-        </>
+        </div>
     );
 }
 
