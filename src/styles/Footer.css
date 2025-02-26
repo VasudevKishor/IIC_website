@@ -3,9 +3,9 @@ footer {
     color: white;
     position: relative; /* Changed from absolute */
     left: 0;
-    clip-path: inset(130px 0 0 0);
+
     font-size: 14px;
-    min-height: 315px; /* Allows it to expand if needed */
+    min-height: 10%; /* Allows it to expand if needed */
     text-align: center;
     width: 100%;
 }
@@ -36,7 +36,6 @@ main {
 /* IIC Section */
 #footer-left {
     text-align: center;
-    margin-top: 180px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,7 +60,6 @@ main {
 /* Middle Section */
 #footer-middle {
     text-align: center;
-    margin-top: 153px;
     margin-left: 130px;
 }
 
@@ -85,7 +83,7 @@ main {
 /* Right Section - Address */
 #footer-right {
     text-align: center;
-    margin-top: 165px;
+    margin-top: 2rem;
     margin-left: 20px;
 }
 

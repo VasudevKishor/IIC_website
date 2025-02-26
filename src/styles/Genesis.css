@@ -2,7 +2,7 @@
 
 
 .genesis-bg {
-    font-family: "IM Fell English", serif;
+    
     background-image: url(../images/genesis-background.png);
     background-size: cover;
 }
@@ -29,7 +29,7 @@
 .gen-header {
     font-size: 18px;
     padding: 10px;
-
+    font-family: "IM Fell English", serif;
     padding-bottom: 10em;
 
     display: grid;

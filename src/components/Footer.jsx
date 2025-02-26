@@ -20,7 +20,7 @@ function Footer() {
             </div>
     
             <div id="footer-right">
-                <h3>Our Address</h3>
+                <h3>OUR ADDRESS</h3>
                 <p>Amrita Vishwa Vidyapeetham, Amritanagar</p>
                 <p>Coimbatore - 641 112, Tamil Nadu, India</p>
             </div>
