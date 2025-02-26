@@ -50,7 +50,7 @@ const Convenors = () => {
                     <div className="convenor-content">
                         <h1 className="ph1">Ramaguru Radhakrishnan</h1>
                         <h2 className="conh2">Convenor - ATL Sarthi Project Showcase
-                            &nbsp; | &nbsp; Assistant Professor - TIFAC-CORE in Cyber Security
+                            &nbsp; &nbsp; Assistant Professor - TIFAC-CORE in Cyber Security
                         </h2>
                     </div>
                 </div>

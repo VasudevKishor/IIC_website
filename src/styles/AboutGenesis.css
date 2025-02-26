@@ -15,6 +15,8 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+    margin-top: 30px;
+    height: 96%;
   }
   
   .left-section img {
@@ -41,7 +43,7 @@
   }
   
   .right-section p {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.8;
     color: #333;
     margin-bottom: 30px;
@@ -54,13 +56,12 @@
   }
   
   .genesis-buttons button {
-    padding: 15px 30px;
-    font-size: 18px;
+    padding: 10px 25px;
+    font-size: 16px;
     font-family: "Montserrat", sans-serif;
     background-color: #0b5958;
     color: #fff;
     border: none;
-
     cursor: pointer;
     transition: background-color 0.3s;
   }
