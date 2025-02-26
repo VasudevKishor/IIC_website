@@ -1,6 +1,5 @@
 import Amritalogo from "../images/amrita_logo_red.png";
 import IIClogo from "../images/iic-logo.png";
-import { Link } from "react-router";
 import "../styles/Header.css";
 
 function Header() {

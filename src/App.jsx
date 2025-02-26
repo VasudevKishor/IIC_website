@@ -2,6 +2,8 @@ import "./styles/App.css";
 import Footer from "./components/Footer";
 import ImageSlider from "./components/ImageSlider";
 import Cards from "./components/Cards";
+import Header from "./components/Header";
+import AboutCampus from "./components/AboutCampus";
 import Convenors from "./components/Convenors";
 
 
