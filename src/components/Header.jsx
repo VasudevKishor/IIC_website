@@ -6,13 +6,16 @@ function Header() {
     return (
         <header className="header">
             <div id="logo">
+                <a href="https://iic.mic.gov.in/">
                 <img
                     src={IIClogo}
                     alt="Institute Innovation Council"
                     id="IIClogo"
-                />
+                /></a>
                 <span id="logo-line"></span>
-                <img src={Amritalogo} alt="Amrita Vishwa Vidyapeetham" id="Amritalogo"/>
+
+                <a href="https://www.amrita.edu/"><img src={Amritalogo} alt="Amrita Vishwa Vidyapeetham" id="Amritalogo"/>
+                </a>
             </div>
             <div className="nav">
                 <a href="/">Home</a>
