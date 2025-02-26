@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap);
 .workshop-title{
-    min-height: 100vh;
+    min-height: 40vh;
     display: flex;
     justify-content: center;
     align-items: start;
@@ -13,32 +13,32 @@
     font-family: "Libre Bodoni",sans-serif;
     font-weight: 700;
     font-size: 12.5vw;
-    margin: 0;
+    margin: 1rem;
+    height: 12.5vw;
 }
 
-
-#atal-tinkering-labs{
-    font-family: "Libre Bodoni",sans-serif;
-    font-weight: 700;
-    font-size: 2.5vw;
-    align-self: flex-start;
-}
 
 .workshop-1-text{
-    min-height: 100vh;
+    min-height: auto;
     display: flex;
     align-items: end;
     justify-content: center;
     flex-direction: column;
     padding: 1rem;
+    
 }
 
-.workshop-1-details{
-    text-align: center;
+.workshop-1-text h3{
+    text-align: right;
+    margin-right: 5rem;
+}
+.workshop-1-text p{
+    text-align: right;
     font-size: 1.25rem;
     width: 75vw;
-    margin: 0;
+    margin-right: 3rem;
 }
+
 
 .workshop-1-details h3{
     margin: 0;
@@ -47,16 +47,17 @@
 }
 
 .workshop-2-text{
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
     align-items: start;
     justify-content: center;
     flex-direction: column;
     padding: 1rem;
+    margin-left: 3rem;
 }
 
 .workshop-2-details{
-    text-align: center;
+    text-align: left;
     font-size: 1.25rem;
     width: 75vw;
     margin: 0;
