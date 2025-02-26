@@ -3,9 +3,10 @@
 
 .genesis-bg {
     font-family: "IM Fell English", serif;
-    background-image: url(../images/Header-background.png);
+    background-image: url(../images/genesis-background.png);
     background-size: cover;
 }
+
 
 .arrow {
     color: black;

@@ -16,7 +16,7 @@ import Footer from "./Footer";
 
 function Genesis() {
     return (
-        <>
+        <div className="genesis-bg">
             <title>Genesis</title>
             <div className="genesis-bg">
             <header className="gen-header">
@@ -72,7 +72,7 @@ function Genesis() {
             </div>
             <Footer />
             
-        </>
+        </div>
     );
 }
 
