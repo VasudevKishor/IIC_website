@@ -6,7 +6,6 @@
     align-items: start;
     flex-direction: column;
     padding: 2rem;
-    box-shadow: inset 0 -3px 10px rgba(70, 130, 180, 0.1); 
 }
 
 
@@ -32,7 +31,6 @@
     justify-content: center;
     flex-direction: column;
     padding: 1rem;
-    box-shadow: inset 0 -3px 10px rgba(70, 130, 180, 0.1); 
 }
 
 .workshop-1-details{
@@ -55,7 +53,6 @@
     justify-content: center;
     flex-direction: column;
     padding: 1rem;
-    box-shadow: inset 0 -3px 10px rgba(70, 130, 180, 0.1); 
 }
 
 .workshop-2-details{

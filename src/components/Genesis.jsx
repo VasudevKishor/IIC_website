@@ -12,6 +12,7 @@ import Convenors from "./Convenors";
 import Exodus from "./Exodus"
 import Fair from "./Fair"
 import Workshops from "./Workshops"
+import Footer from "./Footer";
 
 function Genesis() {
     return (
@@ -64,9 +65,12 @@ function Genesis() {
             <AboutGenesis />
             <Convenors />
             {/* THE EXODUS PART */}
+            <div className="parallaxbg">
             <Exodus/>
             <Fair/>
             <Workshops/>
+            </div>
+            <Footer />
             
         </>
     );
