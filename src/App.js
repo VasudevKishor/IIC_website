@@ -7,22 +7,7 @@ import Convenors from './Convenors';
 
 
 function App() {
-  return (
-    <div className="App">
-      <Header />
-      <div>
-            <ImageSlider />
-        </div>
-
-        <div>
-      <Card_IIC />
-        </div>
-        <div>
-          <Convenors/>
-        </div>
-      <Footer />
-    </div>
-  );
+  return ()
 }
 
 export default App;
