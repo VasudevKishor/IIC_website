@@ -29,8 +29,8 @@ function AboutGenesis() {
           entrepreneurship, and social impact.
         </p>
         <div className="genesis-buttons">
-          <button>EVENTS</button>
-          <button>WORKSHOPS</button>
+          <a href="#exodus"><button>EVENTS</button></a>
+          <a href="#workshop"><button>WORKSHOPS</button></a>
         </div>
       </div>
     </div>
