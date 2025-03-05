@@ -10,7 +10,15 @@ const Cards = () => {
       </div>
       <div className="info-card">
         <div className="card-header">Goals</div>
-        <div className="card-content"></div>
+        <div className="card-content">
+        <ul>
+        <li>The IIC encourages staff, instructors, and students to get involved in initiatives that support entrepreneurship and innovation.</li>
+        <li>By offering guidance and assistance, we assist instructors and students in creating profitable enterprises.</li>
+        <li>We aid organisations in getting ready for rankings determined by their accomplishments in innovation.</li>
+        <li>We aid pupils in improving their technological cognition.</li>
+        <li>Students are encouraged to engage in activities that foster the development of their entrepreneurial skills.</li>
+    </ul>
+        </div>
       </div>
     </div>
   );

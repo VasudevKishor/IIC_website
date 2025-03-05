@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "../styles/Countdown.css";
 
 function Countdown() {
-    const countingTo = new Date("2025-03-13T00:00:00");
+    const countingTo = new Date("2025-03-27T00:00:00");
     const now = new Date();
 
     const [time, setTime] = useState(countingTo - now);

@@ -8,6 +8,10 @@ import Prashant from "../images/PrashantSir.jpg";
 import Arun from "../images/ArunKumar.jpg";
 import ramaguru from "../images/ramaguru.jpg";
 import adarsh from "../images/DrAdarshS.jpg";
+import ramraj from "../images/ramraj.jpg"
+import adithya from "../images/aditya.jpg"
+import sanyam from "../images/sanyam.jpeg"
+
 const data = [
   {
     title: "Convenors",
@@ -20,13 +24,13 @@ const data = [
   },
   {
     title: "Chairs",
-    members: [{ name: "Adithya Anish Nair", role: "Chair", image: "" }]
+    members: [{ name: "Adithya Anish Nair", role: "Chair", image: adithya }]
   },
   {
     title: "Vice Chairs",
     members: [
-      { name: "Ramraj S", role: "Vice Chair", image: "" },
-      { name: "Sanyam Bhardwaj", role: "Vice Chair", image: "" }
+      { name: "Ramraj S", role: "Vice Chair", image: ramraj },
+      { name: "Sanyam Bhardwaj", role: "Vice Chair", image: sanyam }
     ]
   }
 ];

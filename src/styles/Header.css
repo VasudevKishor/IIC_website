@@ -1,76 +1,124 @@
-#IIClogo {
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    height: 75px; /* Slightly more space */
+    padding: 0 20px;
+    border-bottom: 1px solid rgba(129, 129, 129, 0.5);
+    z-index: 1000;
+}
+
+/* LOGO STYLING */
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    max-width: 20%; /* Reduced width */
+}
+
+/* Set a max width for logos to prevent stretching */
+#IIClogo, #Amritalogo {
+    height: 40px; /* Slightly smaller */
+    max-width: 100px; /* Ensures logos are not too wide */
     width: auto;
-    height: 38px;
-    margin-left: 30px;
-    margin-top: -80px;
-    margin-bottom: 135px;
-    margin-right: 20px;
 }
 
 #logo-line {
-  display: inline-block;
-  width: 0.7px;
-  height: 30px;
-  margin-bottom: 135px;
-  background-color: #278a89;
+    width: 1px;
+    height: 30px;
+    background-color: #278a89;
 }
 
-#Amritalogo {
-    width: 100px;
-    height: 100px;
-    margin-left: 15px;
-    margin-top: -20px;
-    margin-bottom: 100px;
-
-    margin-right: 10px;
+/* NAVIGATION */
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-grow: 1;
+    justify-content: flex-end;
+    margin-right: 70px;
 }
 
-#logo {
-    float: left;
-}
-
-.nav a{
+.nav a {
     color: #154746;
     text-decoration: none;
-    font-size: 15px;
-    margin-left: 50px;
-    margin-right: 20px;
-    margin-top:40px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-
-   
-   
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.nav a:hover{
-    border-bottom: 1px solid #ffc107 ;
+/* HOVER & ACTIVE STATES */
+.nav a:hover {
+    border-bottom: 1px solid #ffc107;
     color: #2b7a77;
 }
 
 .nav a:active {
     color: #000000;
     background-color: #ddd;
-   
 }
 
-.nav {
-    float: right;
-    margin-top: 15px;
-    margin-right: 27px;
-    align-items: center;
+/* HAMBURGER MENU FOR SMALLER SCREENS */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    margin-right: 20px;
 }
 
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.7); 
-    backdrop-filter: blur(25px);
-    max-height: 57px;
-    padding: 0px 10px;
-    border-bottom: 1px solid rgba(129, 129, 129, 0.5); 
-    z-index: 1000; 
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: #154746;
+    margin: 4px 0;
 }
 
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 768px) {
+    .header {
+        height: 80px; /* More space */
+        padding: 0 15px;
+    }
+
+    #logo {
+        max-width: 30%; /* Prevents logo from taking too much space */
+    }
+
+    #IIClogo, #Amritalogo {
+        height: 30px; /* Smaller logos on mobile */
+        max-width: 80px;
+    }
+
+    .nav {
+        display: none; /* Hide nav links initially */
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        background: white;
+        width: 100%;
+        padding: 10px 0;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        
+    }
+
+    .nav.active {
+        display: flex;
+    }
+
+    .nav a {
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
