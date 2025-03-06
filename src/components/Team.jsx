@@ -19,6 +19,7 @@ import Neeraj from "../images/IIC/DSC_0185.jpg"
 import Aakash from "../images/IIC/DSC_0576.jpg"
 import Subhashini from "../images/IIC/DSC_8734.jpg"
 import shruthi from "/Users/vasudevkishor/Documents/IIC/WebIIC/IIC_website/src/images/PHOTO-2025-03-06-13-27-31.jpg"
+import shaun from "../images/IIC/DSC_8853.jpg"
 const data = [
   {
     title: "Convenors",
@@ -94,7 +95,7 @@ const data = [
   {
     title: "Finance",
     members: [
-      { name: "Shaun Joseph Sunny", role: "Head", image: ramraj }
+      { name: "Shaun Joseph Sunny", role: "Head", image: shaun }
     ]
   }
 ];
