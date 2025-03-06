@@ -17,8 +17,6 @@ import Dhamini from "../images/IIC/DSC_0134.jpg"
 import Vasudev from "../images/IIC/DSC_0166.jpg"
 import Neeraj from "../images/IIC/DSC_0185.jpg"
 import Aakash from "../images/IIC/DSC_0576.jpg"
-import Nair from "../images/IIC/DSC_0600.jpg"
-import Ramu from "../images/IIC/DSC_0621.jpg"
 import Subhashini from "../images/IIC/DSC_8734.jpg"
 import shruthi from "/Users/vasudevkishor/Documents/IIC/WebIIC/IIC_website/src/images/PHOTO-2025-03-06-13-27-31.jpg"
 const data = [
