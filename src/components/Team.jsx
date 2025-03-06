@@ -70,7 +70,7 @@ const data = [
   {
     title: "Exodus",
     members: [
-      { name: "Akash Sriram", role: "Head", image: Aakash },
+      { name: "Aakash Sriram", role: "Head", image: Aakash },
       { name: "Dhamini Manoj", role: "Co-Head", image: Dhamini }
     ]
   },
