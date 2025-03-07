@@ -20,6 +20,12 @@ import Aakash from "../images/IIC/DSC_0576.jpg"
 import Subhashini from "../images/IIC/DSC_8734.jpg"
 import shruthi from "/Users/vasudevkishor/Documents/IIC/WebIIC/IIC_website/src/images/PHOTO-2025-03-06-13-27-31.jpg"
 import shaun from "../images/IIC/DSC_8853.jpg"
+import deepak from "../images/IIC/PHOTO-2025-02-26-22-39-01.jpg"
+import hemu from "../images/IIC/profile (2).jpg"
+import roshni from "../images/IIC/IMG-20250306-WA0038.jpg"
+import shakthi from "../images/IIC/IMG_20250306_143415.jpg"
+import preethi from "../images/IIC/IMG_20250306_143440.jpg"
+import theerth from "../images/IIC/PHOTO-2025-03-06-23-53-19.jpg"
 const data = [
   {
     title: "Convenors",
@@ -58,7 +64,7 @@ const data = [
   {
     title: "Fair",
     members: [
-      { name: "Deepak Kumar S", role: "Head", image: ramraj }
+      { name: "Deepak Kumar S", role: "Head", image: deepak }
     ]
   },
   {
@@ -77,7 +83,10 @@ const data = [
   {
     title: "Logistics",
     members: [
-      { name: "Hemadhri P C", role: "Head", image: ramraj }
+      { name: "Hemadhri P C", role: "Head", image: hemu },
+      { name: "Mokitha Sakthi Rajapandiyan", role: "Co-Head", image: shakthi },
+      { name: "Preethi Kannan", role: "Co-Head", image: preethi },
+      { name: "Roshini A", role: "Co-Head", image: roshni }
     ]
   },
   {
@@ -89,7 +98,7 @@ const data = [
   {
     title: "Admin",
     members: [
-      { name: "Theerth Krish", role: "Head", image: ramraj }
+      { name: "Theerth Krish", role: "Head", image: theerth }
     ]
   },
   {
