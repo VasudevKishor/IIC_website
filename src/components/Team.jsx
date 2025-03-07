@@ -25,6 +25,7 @@ import hemu from "../images/IIC/profile (2).jpg"
 import roshni from "../images/IIC/IMG-20250306-WA0038.jpg"
 import shakthi from "../images/IIC/IMG_20250306_143415.jpg"
 import preethi from "../images/IIC/IMG_20250306_143440.jpg"
+import theerth from "../images/IIC/PHOTO-2025-03-06-23-53-19.jpg"
 const data = [
   {
     title: "Convenors",
@@ -97,7 +98,7 @@ const data = [
   {
     title: "Admin",
     members: [
-      { name: "Theerth Krish", role: "Head", image: ramraj }
+      { name: "Theerth Krish", role: "Head", image: theerth }
     ]
   },
   {
