@@ -1,47 +1,47 @@
 import { useState, useEffect } from "react";
 import "../styles/Countdown.css";
 
-function Countdown() {
-    const countingTo = new Date("2025-03-27T00:00:00");
-    const now = new Date();
+function Countdown({ targetDate }) {
+    const countingTo = new Date(targetDate);
 
-    const [time, setTime] = useState(countingTo - now);
-    const [days, setDays] = useState(0);
-    const [hours, setHours] = useState(0);
-    const [min, setMin] = useState(0);
-    const [sec, setSec] = useState(0);
+    const calculateTimeLeft = () => {
+        const now = new Date();
+        const difference = countingTo - now;
+
+        return {
+            days: Math.max(0, Math.floor(difference / 86_400_000)),
+            hours: Math.max(0, Math.floor((difference / 3_600_000) % 24)),
+            minutes: Math.max(0, Math.floor((difference / 60_000) % 60)),
+            seconds: Math.max(0, Math.floor((difference / 1000) % 60)),
+        };
+    };
+
+    const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
     useEffect(() => {
-        setInterval(() => {
-            setTime((time) => {
-                if (time > 0) {
-                    setSec(Math.floor(time / 1000) % 60);
-                    setMin(Math.floor(time / 60_000) % 60);
-                    setHours(Math.floor(time / 360_000) % 24);
-                    setDays(Math.floor(time / 8.64e7));
-
-                    return time - 1000;
-                }
-            });
+        const interval = setInterval(() => {
+            setTimeLeft(calculateTimeLeft());
         }, 1000);
-    }, []);
+
+        return () => clearInterval(interval);
+    }, [targetDate]); // Depend on targetDate to allow multiple instances
 
     return (
         <ul id="countdown">
-            <li id="days">
-                <div className="number">{String(days).padStart(2, "0")}</div>
+            <li>
+                <div className="number">{String(timeLeft.days).padStart(2, "0")}</div>
                 <div className="label">Days</div>
             </li>
-            <li id="hours">
-                <div className="number">{String(hours).padStart(2, "0")}</div>
+            <li>
+                <div className="number">{String(timeLeft.hours).padStart(2, "0")}</div>
                 <div className="label">Hours</div>
             </li>
-            <li id="minutes">
-                <div className="number">{String(min).padStart(2, "0")}</div>
+            <li>
+                <div className="number">{String(timeLeft.minutes).padStart(2, "0")}</div>
                 <div className="label">Minutes</div>
             </li>
-            <li id="seconds">
-                <div className="number">{String(sec).padStart(2, "0")}</div>
+            <li>
+                <div className="number">{String(timeLeft.seconds).padStart(2, "0")}</div>
                 <div className="label">Seconds</div>
             </li>
         </ul>

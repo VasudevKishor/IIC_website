@@ -17,6 +17,10 @@
     text-decoration: none;
 }
 
+.convenor-section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
 /* Removed hr.divide */
 hr.divide {
     display: none;
@@ -124,4 +128,59 @@ h2.conh2 {
     text-align: center;
     margin-top: 15px; /* Reduced space between h2 and h1 */
     font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .convenors-container {
+        padding: 1rem;
+    }
+
+    .convenors-title {
+        font-size: 2rem;
+    }
+
+    .convenors-wrapper {
+        padding: 1rem;
+        margin: 20px auto;
+    }
+
+    .convenor-section {
+        flex-direction: column;
+        gap: 1rem;
+        width: 90%;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .convenor-section.right {
+        flex-direction: column;
+    }
+
+    .convenor-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .convenor-content {
+        max-width: 100%;
+        padding: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .convenor-name {
+        font-size: 1.5rem;
+    }
+
+    .convenor-designation {
+        font-size: 1rem;
+    }
+
+    h1.ph1 {
+        font-size: 1.4rem;
+        width: 90%;
+    }
+
+    h2.conh2 {
+        font-size: 0.9rem;
+    }
 }

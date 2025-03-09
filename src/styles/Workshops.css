@@ -68,3 +68,12 @@
     font-size: 3rem;
     width: 75vw;
 }
+
+@media (max-width: 768px){
+    .workshop-1-text h3{
+        font-size: 2rem;
+    }
+    .workshop-2-text h3{
+        font-size: 2rem;
+    }
+}

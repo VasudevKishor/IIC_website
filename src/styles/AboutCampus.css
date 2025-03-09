@@ -1,7 +1,7 @@
 .about-campus {
     position: relative;
     background: url('../images/studentsLaptop.jpg') no-repeat center center/cover;
-    height: 700px;
+    height: 70%;
     display: flex;
     justify-content: center; 
     align-items: flex-start; 
@@ -24,7 +24,7 @@
   .about-content {
     position: relative; 
     z-index: 2;
-    padding: 20px 40px;
+    padding: 20px 20%;
     border-radius: 8px;
     text-align: center;
   }
@@ -37,7 +37,7 @@
   }
   
   .yellow-line {
-    padding-left: 49dvh;
+    padding-left: 30%;
     width: 100%; 
     height: auto; 
     display: block; 
@@ -50,9 +50,9 @@
     color: #333; 
     background-color: antiquewhite;
     opacity: 0.8;
-    padding: 10px;
+    padding: 10%;
     border-radius: 8px;
-    width: 50%;
-    margin-left: 25%;
+    width: 60%;
+    margin-left: 10%;
   }
   

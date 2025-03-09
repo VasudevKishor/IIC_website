@@ -69,4 +69,38 @@
   .genesis-buttons button:hover {
     background-color: #4ea4a2;
   }
-  
+
+ 
+  @media (max-width: 768px) {
+    .about-genesis-container {
+        flex-direction: column; /* Stack sections vertically */
+        height: auto;
+    }
+
+    .left-section {
+        display: none; /* Hide left section on smaller screens */
+    }
+
+    .right-section {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .right-section h1 {
+        font-size: 36px; /* Reduce size for mobile */
+    }
+
+    .right-section p {
+        font-size: 14px;
+    }
+
+    .genesis-buttons {
+        flex-direction: column; /* Stack buttons */
+        gap: 10px;
+    }
+
+    .genesis-buttons button {
+        width: 100%;
+        padding: 12px;
+    }
+}
