@@ -16,7 +16,7 @@ function Footer() {
                 
                 <h3>REACH OUT TO US!</h3>
                 <p>Feel free to reach out to us if any queries</p>
-                <a href="mailto:chair.iic@cb.amrita.edu">chair.iic@cb.amrita.edu</a>
+                <a href="mailto:outreach.iic@cb.amrita.edu">outreach.iic@cb.amrita.edu</a>
             </div>
     
             <div id="footer-right">
