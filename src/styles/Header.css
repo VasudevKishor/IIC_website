@@ -8,7 +8,7 @@
     width: 100%;
     background-color: rgba(255, 255, 255, 0.9);
     backdrop-filter: blur(10px);
-    height: 75px; /* Slightly more space */
+    height: 75px;
     padding: 0 20px;
     border-bottom: 1px solid rgba(129, 129, 129, 0.5);
     z-index: 1000;
@@ -16,17 +16,18 @@
 
 
 #Amritalogo {
-    width: 100px;
-    height: 100px;
-    margin-left: 15px;
-    margin-right: 10px;
+    width: 10vw;
+    max-width: 100px;
+    height: auto;
+    margin-left: 2vw;
+    margin-right: 1vw;
 }
 
-#IIClogo{
-    width: auto;
-     height: 38px;
-     margin-left: 30px;
-     margin-right: 20px;
+#IIClogo {
+    height: 5vh;
+    max-height: 38px;
+    margin-left: 3vw;
+    margin-right: 2vw;
 }
 
 #logo-line {
@@ -39,22 +40,25 @@
 .nav {
     display: flex;
     align-items: center;
-    gap: 30px;
-    flex-grow: 1;
     justify-content: flex-end;
-    margin-right: 70px;
+    gap: 3vw;
+    margin-right: 5vw;
+    min-width: 50%;
 }
+
 
 .nav a {
     color: #154746;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: all 0.3s ease;
+    padding: 10px;
 }
 
-/* HOVER & ACTIVE STATES */
+
 .nav a:hover {
-    border-bottom: 1px solid #ffc107;
+    border-bottom: 2px solid #ffc107;
     color: #2b7a77;
 }
 
@@ -63,56 +67,60 @@
     background-color: #ddd;
 }
 
-/* HAMBURGER MENU FOR SMALLER SCREENS */
 .hamburger {
-    display: none;
+    display: flex;
     flex-direction: column;
     cursor: pointer;
-    margin-right: 20px;
+    gap: 5px;
+    padding: 10px;
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .hamburger div {
-    width: 25px;
+    width: 30px;
     height: 3px;
-    background-color: #154746;
-    margin: 4px 0;
+    background: #154746;
+    transition: all 0.3s ease-in-out;
 }
 
-/* MOBILE RESPONSIVENESS */
-@media (max-width: 768px) {
-    .header {
-        height: 80px; /* More space */
-        padding: 0 15px;
-    }
+.hamburger.open div:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
 
-    #logo {
-        max-width: 30%; /* Prevents logo from taking too much space */
-    }
+.hamburger.open div:nth-child(2) {
+    opacity: 0;
+}
 
-    .nav {
-        display: none; /* Hide nav links initially */
-        flex-direction: column;
-        position: absolute;
-        top: 80px;
-        right: 0;
-        background: white;
-        width: 100%;
-        padding: 10px 0;
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-        
-    }
+.hamburger.open div:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
 
-    .nav.active {
-        display: flex;
-    }
 
-    .nav a {
-        padding: 10px;
+.nav.hidden {
+    display: none;
+}
+
+.nav.visible {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 75px;
+    right: 0;
+    width: 60%;
+    background: rgba(255, 255, 255, 0.95);
+    text-align: right;
+    padding: 10px 15px;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+}
+
+
+@media (max-width: 480px) {
+    .nav.visible {
+        width: 100%; 
         text-align: center;
-        width: 100%;
-    }
-
-    .hamburger {
-        display: flex;
     }
 }
