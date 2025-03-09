@@ -23,6 +23,7 @@ main {
 }
 
 #footer-container {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -137,17 +138,21 @@ main {
     color: #ffc107;
 }
 
-/* Responsive Fixes */
 @media (max-width: 768px) {
     #footer-container {
+        margin-top: 80px;
         flex-direction: column;
-        gap: 30px; /* Adjusted gap for better spacing */
+        gap: 0px;
         padding: 20px;
     }
 
     #footer-left, #footer-middle, #footer-right {
         text-align: center;
-        margin-bottom: 10px;
+        margin-bottom: 1px;
+    }
+
+    #footer-right {
+        margin-top: 0px;
     }
 
 

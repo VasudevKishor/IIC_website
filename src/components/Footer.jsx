@@ -28,11 +28,8 @@ function Footer() {
     
         <div id="footer-bottom">
             <div id="social-icons">
-                <FontAwesomeIcon icon={faFacebook} className="icon" />
                 <FontAwesomeIcon icon={faInstagram} className="icon" />
-                <FontAwesomeIcon icon={faTwitter} className="icon" />
                 <FontAwesomeIcon icon={faLinkedin} className="icon" />
-                <FontAwesomeIcon icon={faYoutube} className="icon" />
             </div>
         </div>
     </footer>

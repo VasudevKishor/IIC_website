@@ -1,5 +1,4 @@
 import Countdown from "./Countdown";
-import arrow from "../images/arrow.svg";
 import genesisLogo from "../images/genesis-logo-truly-transparent-cropped.png";
 import AboutGenesis from "./AboutGenesis";
 import "../styles/Genesis.css";
@@ -21,14 +20,17 @@ function Genesis() {
             <div className="genesis-bg">
             <div className="bottom">
                 <div className="left">
-                    <img src={genesisLogo} className="genesis-logo" />
+                    <img src={genesisLogo} className="genesis-logo" alt="IIC"/>
                 </div>
                 <div className="right">
                     <div className="gen-reg-container">
                         <div className="genesis">Genesis '25</div>
                     </div>
                     <div className="countdown">
-                        <Countdown />
+                        <div className="countdown-text">Phase 1</div>
+                        <Countdown targetDate="2025-03-14T00:00:00"/>
+                        <div className="countdown-text">Phase 2</div>
+                        <Countdown targetDate="2025-03-27T00:00:00" />
                     </div>
                 </div>
             </div>
