@@ -60,7 +60,6 @@ main {
 /* Middle Section */
 #footer-middle {
     text-align: center;
-    margin-left: 130px;
 }
 
 #footer-middle h3 {
@@ -142,19 +141,14 @@ main {
 @media (max-width: 768px) {
     #footer-container {
         flex-direction: column;
-        text-align: center;
+        gap: 30px; /* Adjusted gap for better spacing */
+        padding: 20px;
     }
 
     #footer-left, #footer-middle, #footer-right {
         text-align: center;
-        line-height: 1.2;
-        font-family: 'Poppins', sans-serif;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
 
-    #footer-bottom {
-        flex-direction: column;
-        text-align: center;
-        gap: 10px;
-    }
+
 }

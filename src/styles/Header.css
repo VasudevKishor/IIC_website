@@ -14,20 +14,19 @@
     z-index: 1000;
 }
 
-/* LOGO STYLING */
-#logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    flex-shrink: 0;
-    max-width: 20%; /* Reduced width */
+
+#Amritalogo {
+    width: 100px;
+    height: 100px;
+    margin-left: 15px;
+    margin-right: 10px;
 }
 
-/* Set a max width for logos to prevent stretching */
-#IIClogo, #Amritalogo {
-    height: 40px; /* Slightly smaller */
-    max-width: 100px; /* Ensures logos are not too wide */
+#IIClogo{
     width: auto;
+     height: 38px;
+     margin-left: 30px;
+     margin-right: 20px;
 }
 
 #logo-line {
@@ -88,11 +87,6 @@
 
     #logo {
         max-width: 30%; /* Prevents logo from taking too much space */
-    }
-
-    #IIClogo, #Amritalogo {
-        height: 30px; /* Smaller logos on mobile */
-        max-width: 80px;
     }
 
     .nav {

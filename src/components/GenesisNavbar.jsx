@@ -10,7 +10,7 @@ export default function GenesisNavbar() {
                 <img
                     src={IIClogo}
                     alt="Institute Innovation Council"
-                    id="IIClogo"
+                    id="IIClogoGen"
                 />
             </div>
             <div className="genesis-navlinks">
@@ -24,7 +24,7 @@ export default function GenesisNavbar() {
                 <img
                     src={Amritalogo}
                     alt="Amrita Vishwa Vidyapeetham"
-                    id="Amritalogo"
+                    id="AmritalogoGen"
                 />
             </div>
         </nav>
