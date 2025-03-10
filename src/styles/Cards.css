@@ -54,7 +54,8 @@
 
   .info-card {
       width: 90%; /* Make the cards take most of the screen width */
+      padding-bottom: 2rem;
       height: auto; /* Allow height to adjust */
-      margin-bottom: 10px;
+      margin-bottom: 20px;
   }
 }
