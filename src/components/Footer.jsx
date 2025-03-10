@@ -2,7 +2,7 @@ import React from "react";
 import '../styles/Footer.css';
 import Amritalogo from "../images/amrita-logo-white.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faInstagram, faTwitter, faLinkedin, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
     return (
@@ -16,7 +16,7 @@ function Footer() {
                 
                 <h3>REACH OUT TO US!</h3>
                 <p>Feel free to reach out to us if any queries</p>
-                <a href="mailto:chair.iic@cb.amrita.edu">chair.iic@cb.amrita.edu</a>
+                <a href="mailto:outreach.iic@cb.amrita.edu">outreach.iic@cb.amrita.edu</a>
             </div>
     
             <div id="footer-right">
@@ -28,11 +28,8 @@ function Footer() {
     
         <div id="footer-bottom">
             <div id="social-icons">
-                <FontAwesomeIcon icon={faFacebook} className="icon" />
-                <FontAwesomeIcon icon={faInstagram} className="icon" />
-                <FontAwesomeIcon icon={faTwitter} className="icon" />
-                <FontAwesomeIcon icon={faLinkedin} className="icon" />
-                <FontAwesomeIcon icon={faYoutube} className="icon" />
+                <a href="https://www.instagram.com/iic.amrita"><FontAwesomeIcon icon={faInstagram} className="icon"  /></a>
+                <a href="https://www.linkedin.com/in/iic-amrita-463913351/"><FontAwesomeIcon icon={faLinkedin} className="icon" /></a>
             </div>
         </div>
     </footer>

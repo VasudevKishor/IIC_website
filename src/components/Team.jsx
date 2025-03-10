@@ -8,6 +8,24 @@ import Prashant from "../images/PrashantSir.jpg";
 import Arun from "../images/ArunKumar.jpg";
 import ramaguru from "../images/ramaguru.jpg";
 import adarsh from "../images/DrAdarshS.jpg";
+import ramraj from "../images/ramraj.jpg"
+import adithya from "../images/aditya.jpg"
+import sanyam from "../images/sanyam.jpeg"
+import Thilagan from "../images/IIC/DSC_0031.jpg"
+import Parvathy from "../images/IIC/DSC_0052.jpg"
+import Dhamini from "../images/IIC/DSC_0134.jpg"
+import Vasudev from "../images/IIC/DSC_0166.jpg"
+import Neeraj from "../images/IIC/DSC_0185.jpg"
+import Aakash from "../images/IIC/DSC_0576.jpg"
+import Subhashini from "../images/IIC/DSC_8734.jpg"
+import shruthi from "../images/PHOTO-2025-03-06-13-27-31.jpg"
+import shaun from "../images/IIC/DSC_8853.jpg"
+import deepak from "../images/IIC/PHOTO-2025-02-26-22-39-01.jpg"
+import hemu from "../images/IIC/profile (2).jpg"
+import roshni from "../images/IIC/IMG-20250306-WA0038.jpg"
+import shakthi from "../images/IIC/IMG_20250306_143415.jpg"
+import preethi from "../images/IIC/IMG_20250306_143440.jpg"
+import theerth from "../images/IIC/PHOTO-2025-03-06-23-53-19.jpg"
 const data = [
   {
     title: "Convenors",
@@ -20,13 +38,73 @@ const data = [
   },
   {
     title: "Chairs",
-    members: [{ name: "Adithya Anish Nair", role: "Chair", image: "" }]
+    members: [{ name: "Adithya Anish Nair", role: "Chair", image: adithya }]
   },
   {
     title: "Vice Chairs",
     members: [
-      { name: "Ramraj S", role: "Vice Chair", image: "" },
-      { name: "Sanyam Bhardwaj", role: "Vice Chair", image: "" }
+      { name: "Ramraj S", role: "Vice Chair", image: ramraj },
+      { name: "Sanyam Bhardwaj", role: "Vice Chair", image: sanyam }
+    ]
+  },
+  {
+    title: "Tech and Design",
+    members: [
+      { name: "Neeraj Nair", role: "Head", image: Neeraj },
+      { name: "Vasudev Kishor", role: "Co-Head", image: Vasudev }
+    ]
+  },
+  {
+    title: "PR and Outreach",
+    members: [
+      { name: "Subhashini Sudhakar", role: "Head", image: Subhashini },
+      { name: "Thilagan Iniyavan", role: "Co-Head", image: Thilagan }
+    ]
+  },
+  {
+    title: "Fair",
+    members: [
+      { name: "Deepak Kumar S", role: "Head", image: deepak }
+    ]
+  },
+  {
+    title: "Workshop",
+    members: [
+      { name: "Shruti Sivakumar", role: "Head", image: shruthi }
+    ]
+  },
+  {
+    title: "Exodus",
+    members: [
+      { name: "Aakash Sriram", role: "Head", image: Aakash },
+      { name: "Dhamini Manoj", role: "Co-Head", image: Dhamini }
+    ]
+  },
+  {
+    title: "Logistics",
+    members: [
+      { name: "Hemadhri P C", role: "Head", image: hemu },
+      { name: "Mokitha Sakthi Rajapandiyan", role: "Co-Head", image: shakthi },
+      { name: "Preethi Kannan", role: "Co-Head", image: preethi },
+      { name: "Roshini A", role: "Co-Head", image: roshni }
+    ]
+  },
+  {
+    title: "Hospitality",
+    members: [
+      { name: "Parvathi S", role: "Head", image: Parvathy }
+    ]
+  },
+  {
+    title: "Admin",
+    members: [
+      { name: "Theerth Krish", role: "Head", image: theerth }
+    ]
+  },
+  {
+    title: "Finance",
+    members: [
+      { name: "Shaun Joseph Sunny", role: "Head", image: shaun }
     ]
   }
 ];

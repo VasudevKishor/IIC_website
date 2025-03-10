@@ -23,6 +23,7 @@ main {
 }
 
 #footer-container {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -60,7 +61,6 @@ main {
 /* Middle Section */
 #footer-middle {
     text-align: center;
-    margin-left: 130px;
 }
 
 #footer-middle h3 {
@@ -138,23 +138,22 @@ main {
     color: #ffc107;
 }
 
-/* Responsive Fixes */
 @media (max-width: 768px) {
     #footer-container {
+        margin-top: 80px;
         flex-direction: column;
-        text-align: center;
+        gap: 0px;
+        padding: 20px;
     }
 
     #footer-left, #footer-middle, #footer-right {
         text-align: center;
-        line-height: 1.2;
-        font-family: 'Poppins', sans-serif;
-        margin-bottom: 15px;
+        margin-bottom: 1px;
     }
 
-    #footer-bottom {
-        flex-direction: column;
-        text-align: center;
-        gap: 10px;
+    #footer-right {
+        margin-top: 0px;
     }
+
+
 }

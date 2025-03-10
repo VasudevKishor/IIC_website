@@ -1,8 +1,5 @@
 import Countdown from "./Countdown";
-import arrow from "../images/arrow.svg";
-import iicLogo from "../images/iic-logo-notext.png";
 import genesisLogo from "../images/genesis-logo-truly-transparent-cropped.png";
-import amritaEmblem from "../images/amrita-emblem.svg";
 import AboutGenesis from "./AboutGenesis";
 import "../styles/Genesis.css";
 import "../styles/Workshops.css";
@@ -11,53 +8,30 @@ import "../styles/Fair.css";
 import Convenors from "./Convenors";
 import Exodus from "./Exodus"
 import Fair from "./Fair"
+import CFair from "./CollegeFair"
 import Workshops from "./Workshops"
 import Footer from "./Footer";
+import GenesisNavbar from "./GenesisNavbar";
 
 function Genesis() {
     return (
         <div className="genesis-bg">
+            <GenesisNavbar/>
             <title>Genesis</title>
             <div className="genesis-bg">
-            <header className="gen-header">
-                <div className="back">
-                    <img
-                        src={arrow}
-                        alt="back arrow"
-                        className="arrow"
-                        width="auto"
-                        height="15"
-                    ></img>
-                    <a href="/" className="back-link">
-                        Back
-                    </a>
-                </div>
-                <center className="genesis-title">
-                    <img
-                        src={iicLogo}
-                        alt=""
-                        className="iic-logo"
-                    />
-                    GENESIS
-                </center>
-                <div className="amrita-emblem-container">
-                    <img src={amritaEmblem} alt="" className="amrita-emblem" />
-                </div>
-            </header>
             <div className="bottom">
                 <div className="left">
-                    <img src={genesisLogo} className="genesis-logo" />
+                    <img src={genesisLogo} className="genesis-logo" alt="IIC"/>
                 </div>
                 <div className="right">
                     <div className="gen-reg-container">
                         <div className="genesis">Genesis '25</div>
-                        <div className="register">
-                            <a>Register Now</a>
-                            <img src={arrow} className="reg-arrow" />
-                        </div>
                     </div>
                     <div className="countdown">
-                        <Countdown />
+                        <div className="countdown-text">Phase 1</div>
+                        <Countdown targetDate="2025-03-14T00:00:00"/>
+                        <div className="countdown-text">Phase 2</div>
+                        <Countdown targetDate="2025-03-27T00:00:00" />
                     </div>
                 </div>
             </div>
@@ -68,6 +42,7 @@ function Genesis() {
             <div className="parallaxbg">
             <Exodus/>
             <Fair/>
+            <CFair />
             <Workshops/>
             </div>
             <Footer />

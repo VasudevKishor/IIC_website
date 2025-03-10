@@ -31,8 +31,9 @@
 .fair-text{
     min-height: 50vh;
     display: flex;
-    align-items: center;
-    justify-content: start;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
     padding: 3rem;
     
 }

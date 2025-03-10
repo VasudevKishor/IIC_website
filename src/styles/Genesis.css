@@ -85,6 +85,7 @@
 
 .gen-reg-container {
     padding: 5em;
+    padding-bottom: 2.5em;
     justify-items: right;
 }
 
@@ -105,13 +106,29 @@
     rotate: 135deg;
 }
 
+.countdown-text {
+  
+  margin-top: 12px;
+  font-size: 2rem; /* Adjust size */
+  font-weight: bold; /* Make it stand out */
+  color: #0b5958; /* Elegant dark green */
+  text-transform: uppercase;
+  letter-spacing: 2px; /* Improve readability */
+  text-align: center;
+  padding: 2rem;
+}
+
 .countdown {
-    justify-items: left;
-    font-size: 20;
-    padding-top: 6em;
-    width: 40%;
+    flex-direction: row;
+    gap: 20px;
+    justify-items: center;
+    justify-content: left;
+    width: 40rem;
     height: 20%;
     font-family: "Roboto";
+    min-width: 300px;
+    max-width: 400px;
+    margin-left: 60px;
 }
 
 body {
@@ -152,11 +169,29 @@ body {
   
   .title {
     margin-bottom: 60px;
+    font-size: 2.5rem;
+    text-align: center;
   }
+
+  .description {
+    font-size: 1rem;
+    max-width: 90%;
+    padding: 1rem;
+  }
+
+  .bottom {
+    display: block;
+    align-content: center;
+    align-items: center;
+  }
+  
 }
 
 
 @media (max-width: 1200px) {
+  .genesis{
+    font-size: 100px;
+  }
   .gen-header {
     grid-template-columns: 1fr;
     text-align: center;
@@ -175,16 +210,13 @@ body {
     justify-content: center;
   }
 
-  .countdown {
-    width: 60%;
-    font-size: 18px;
-    text-align: center;
-  }
+
 }
 
 @media (max-width: 768px) {
   .genesis {
     font-size: 80px;
+    margin-top: auto;
   }
 
   .countdown {
@@ -193,38 +225,28 @@ body {
   }
 
   .gen-reg-container {
-    padding: 2em;
-    text-align: center;
+    padding: 2rem;
+    justify-items: center;
+  }
+  .countdown {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em; /* Space it out from other elements */
+    margin-left: 12%;
+}
+  .right {
+    flex-direction: column;
   }
 }
 
 @media (max-width: 480px) {
-  .genesis {
-    font-size: 60px;
-  }
 
-  .countdown {
-    width: 90%;
-    font-size: 14px;
-  }
 
   .gen-header {
     padding-bottom: 5em;
   }
 }
 
-
-@media (max-width: 768px) {
-  .title {
-    font-size: 2.5rem;
-    text-align: center;
-  }
-
-  .description {
-    font-size: 1rem;
-    max-width: 90%;
-    padding: 1rem;
-  }
-}
 
 

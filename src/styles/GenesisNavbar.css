@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+#IIClogoGen {
+    width: auto;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#AmritalogoGen {
+    width: 192px;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Navbar Styling */
+.genesis-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: white;
+    position: relative;
+}
+
+/* Navigation Links */
+.genesis-navlinks {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.genesis-navlinks a {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+.genesis-navlinks a::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    background: black;
+    transition: width .2s ease-in-out;
+}
+
+.genesis-navlinks a:hover::after {
+    width: 100%;
+}
+
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .genesis-navlinks {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 90px;
+        left: 0;
+        width: 100%;
+        background: white;
+        text-align: center;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 10px 0;
+    }
+
+    .genesis-navlinks.open {
+        display: flex;
+    }
+
+    .genesis-navlinks a {
+        padding: 10px;
+        width: 100%;
+        font-size: 20px;
+    }
+}
