@@ -49,10 +49,13 @@
   .card-container {
       flex-direction: column; /* Stack cards vertically */
       gap: 20px; /* Reduce gap for better spacing */
+      height: auto; 
   }
 
   .info-card {
       width: 90%; /* Make the cards take most of the screen width */
+      padding-bottom: 2rem;
       height: auto; /* Allow height to adjust */
+      margin-bottom: 20px;
   }
 }

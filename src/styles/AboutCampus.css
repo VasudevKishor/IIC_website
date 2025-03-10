@@ -52,7 +52,12 @@
     opacity: 0.8;
     padding: 10%;
     border-radius: 8px;
-    width: 60%;
-    margin-left: 10%;
+    min-width: 60%;
   }
+
+@media (max-width: 768px) {
+  .about-content h1 {
+    font-size: 2em;
+  }
+}
   

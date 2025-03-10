@@ -116,8 +116,7 @@ h1.ph1 {
     width: 80%;
     max-width: 600px;
     margin: 0 auto;
-    padding: 10px 20px;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 600;
 }
 
@@ -130,9 +129,10 @@ h2.conh2 {
     font-weight: 400;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1088px) {
     .convenors-container {
         padding: 1rem;
+        width: auto;
     }
 
     .convenors-title {
@@ -182,5 +182,11 @@ h2.conh2 {
 
     h2.conh2 {
         font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 376px) {
+    h2.conh2 {
+        font-size: 0.7rem;
     }
 }

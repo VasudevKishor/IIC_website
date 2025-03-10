@@ -18,10 +18,7 @@ export default function GenesisNavbar() {
                 />
             </div>
 
-            {/* Hamburger Button */}
-            <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
-                {isOpen ? <FiX size={30} /> : <FiMenu size={30} />}
-            </div>
+            
 
             {/* Navigation Links */}
             <div className={`genesis-navlinks ${isOpen ? "open" : ""}`}>
@@ -38,6 +35,10 @@ export default function GenesisNavbar() {
                     alt="Amrita Vishwa Vidyapeetham"
                     id="AmritalogoGen"
                 />
+            </div>
+            {/* Hamburger Button */}
+            <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
+                {isOpen ? <FiX size={30} /> : <FiMenu size={30} />}
             </div>
         </nav>
     );

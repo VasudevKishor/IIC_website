@@ -211,3 +211,16 @@
   aspect-ratio: 18 / 6;
   width: 100%; 
 }
+
+@media (max-width: 425px) {
+  .slider__text-overlay h2 {
+    font-size: 50px;
+  }
+  .slider__text-overlay p {
+    font-size: 20px;
+  }
+  .iic-button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}
