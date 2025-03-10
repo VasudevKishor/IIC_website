@@ -1,5 +1,4 @@
 import "../styles/Exodus.css"
-import arrow from "../images/arrow.svg"
 export default function Exodus(){
     return(
         <>

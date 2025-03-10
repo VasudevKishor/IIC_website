@@ -85,6 +85,7 @@
 
 .gen-reg-container {
     padding: 5em;
+    padding-bottom: 2.5em;
     justify-items: right;
 }
 
@@ -114,7 +115,7 @@
   text-transform: uppercase;
   letter-spacing: 2px; /* Improve readability */
   text-align: center;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .countdown {
