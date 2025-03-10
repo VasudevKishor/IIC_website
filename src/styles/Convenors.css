@@ -184,3 +184,9 @@ h2.conh2 {
         font-size: 0.9rem;
     }
 }
+
+@media (max-width: 376px) {
+    h2.conh2 {
+        font-size: 0.7rem;
+    }
+}
