@@ -14,19 +14,26 @@
     z-index: 1000;
 }
 
+/* LOGO CONTAINER */
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
 
 #Amritalogo {
     width: 100px;
     height: 100px;
-    margin-left: 15px;
     margin-right: 10px;
 }
 
-#IIClogo{
+
+#IIClogo {
     width: auto;
-     height: 38px;
-     margin-left: 30px;
-     margin-right: 20px;
+    height: 38px;
+    margin-left: 30px;
+    margin-right: 20px;
 }
 
 #logo-line {
@@ -102,9 +109,8 @@
     }
 
     #logo {
-        max-width: 30%; /* Prevents logo from taking too much space */
+        max-width: 40%; /* Prevents logo from taking too much space */
     }
-
     .nav {
         display: none; /* Hide nav links initially */
         flex-direction: column;
@@ -115,7 +121,6 @@
         width: 100%;
         padding: 10px 0;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-        
     }
 
     .nav.active {
@@ -130,5 +135,11 @@
 
     .hamburger {
         display: flex;
+    }
+
+    /* LOGO LINE STAYS IN PLACE */
+    #logo-line {
+        position: static;
+        transform: none;
     }
 }
