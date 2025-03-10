@@ -2,7 +2,7 @@ import React from "react";
 import '../styles/Footer.css';
 import Amritalogo from "../images/amrita-logo-white.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faInstagram, faTwitter, faLinkedin, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
     return (
@@ -28,8 +28,8 @@ function Footer() {
     
         <div id="footer-bottom">
             <div id="social-icons">
-                <FontAwesomeIcon icon={faInstagram} className="icon" />
-                <FontAwesomeIcon icon={faLinkedin} className="icon" />
+                <a href="https://www.instagram.com/iic.amrita"><FontAwesomeIcon icon={faInstagram} className="icon"  /></a>
+                <a href="https://www.linkedin.com/in/iic-amrita-463913351/"><FontAwesomeIcon icon={faLinkedin} className="icon" /></a>
             </div>
         </div>
     </footer>
