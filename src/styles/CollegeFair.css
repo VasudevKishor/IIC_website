@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap);
+.cfair-text{
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    padding: 3rem;
+    margin-bottom: 2rem;
+
+}
+
+.cfair-title{
+   padding: 2rem;
+}
+
+.cfair-title h2{
+    font-family: "Libre Bodoni",sans-serif;
+    font-weight: 700;
+    font-size: 12.5vw;
+    margin: 0;
+    height: 12.5vw;
+}
+
+
+
+.cfair-text p{
+    display: block;
+    font-size: 1.25rem;
+    width: 75vw;
+    text-justify: auto;
+}
+
+.register-now a{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: black;
+}

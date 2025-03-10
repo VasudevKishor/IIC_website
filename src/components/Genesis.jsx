@@ -8,6 +8,7 @@ import "../styles/Fair.css";
 import Convenors from "./Convenors";
 import Exodus from "./Exodus"
 import Fair from "./Fair"
+import CFair from "./CollegeFair"
 import Workshops from "./Workshops"
 import Footer from "./Footer";
 import GenesisNavbar from "./GenesisNavbar";
@@ -41,6 +42,7 @@ function Genesis() {
             <div className="parallaxbg">
             <Exodus/>
             <Fair/>
+            <CFair />
             <Workshops/>
             </div>
             <Footer />
