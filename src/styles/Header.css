@@ -14,19 +14,26 @@
     z-index: 1000;
 }
 
+/* LOGO CONTAINER */
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
 
 #Amritalogo {
     width: 100px;
     height: 100px;
-    margin-left: 15px;
     margin-right: 10px;
 }
 
-#IIClogo{
+
+#IIClogo {
     width: auto;
-     height: 38px;
-     margin-left: 30px;
-     margin-right: 20px;
+    height: 38px;
+    margin-left: 30px;
+    margin-right: 20px;
 }
 
 #logo-line {
@@ -54,7 +61,6 @@
 
 /* HOVER & ACTIVE STATES */
 .nav a:hover {
-    border-bottom: 1px solid #ffc107;
     color: #2b7a77;
 }
 
@@ -68,14 +74,31 @@
     display: none;
     flex-direction: column;
     cursor: pointer;
-    margin-right: 20px;
+    padding: 30px;
+    position: relative;
+    z-index: 1100;
 }
 
 .hamburger div {
-    width: 25px;
+    width: 28px;
     height: 3px;
-    background-color: #154746;
+    background: #154746;
     margin: 4px 0;
+    border-radius: 2px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Hamburger Animation to 'X' */
+.hamburger.active div:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+
+.hamburger.active div:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active div:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
 }
 
 /* MOBILE RESPONSIVENESS */
@@ -86,9 +109,8 @@
     }
 
     #logo {
-        max-width: 30%; /* Prevents logo from taking too much space */
+        max-width: 40%; /* Prevents logo from taking too much space */
     }
-
     .nav {
         display: none; /* Hide nav links initially */
         flex-direction: column;
@@ -99,7 +121,6 @@
         width: 100%;
         padding: 10px 0;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-        
     }
 
     .nav.active {
@@ -114,5 +135,11 @@
 
     .hamburger {
         display: flex;
+    }
+
+    /* LOGO LINE STAYS IN PLACE */
+    #logo-line {
+        position: static;
+        transform: none;
     }
 }
