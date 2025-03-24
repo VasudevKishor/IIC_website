@@ -42,7 +42,6 @@ function Genesis() {
             <div className="parallaxbg">
             <Exodus/>
             <Fair/>
-            <CFair />
             <Workshops/>
             </div>
             <Footer />
